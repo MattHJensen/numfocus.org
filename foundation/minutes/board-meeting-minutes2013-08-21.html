@@ -1,0 +1,354 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+<title>NumFOCUS Foundation - </title>
+<meta charset="utf-8" />
+
+<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+<!-- fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="../../theme/css/style.css" />
+<link rel="shortcut icon" href="../../theme/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../../theme/img/favicon.ico" type="image/x-icon">
+ 
+<script type="text/javascript">
+	$(function() {
+    
+    //this is a subpage (catches top level menu items)
+    if(location.pathname.split("/")[1]!='') {
+      pagePath=location.pathname.split("/")[1];
+      $('.nav > li > a[href^="/'+pagePath+'"]').parent('li').addClass('active');
+    }
+
+    ////this is a secondary subpage (catches second level menu items)
+    if(location.pathname.split("/")[2]!='') {
+      pagePath=location.pathname.split("/")[2];
+      $('li > ul  li > a[href*="'+pagePath+'"]').parent('li').addClass('active');
+    }
+
+	});
+</script>
+  </head>
+  <body>
+<header class="downstream">
+	<section class="container nopad">
+		<a href="/" class="header_logo">
+			<img src="/theme/img/numfocus_logo.png" alt="NumFOCUS"/>
+		</a>
+		<div class="buttons">
+		<btn>
+				<a href="/take-action/join.html" class="btn grey">Join</a>
+			</btn>
+			<btn>
+				<a href="/take-action/donate.html" class="btn yellow">Donate</a>
+			</btn>
+		</div>
+		<ul class="nav">
+			<li><a href="/take-action/index.html">Take Action</a>
+				<ul>
+					<div>
+						<li><a href="/take-action/join.html">Join NumFOCUS</a></li>
+						<li><a href="/take-action/donate.html">Donate</a></li>
+						<li><a href="/take-action/sponsorship.html">Sponsor</a></li>
+						<li><a href="/take-action/mailing-list.html">Mailing List</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/foundation/index.html">Foundation</a>
+				<ul>
+					<div>
+						<li><a href="/foundation/staff.html">Staff</a></li>
+						<li><a href="/foundation/board.html">Board</a></li>
+						<li><a href="/foundation/vice_presidents.html">Vice Presidents</a></li>
+						<li><a href="/foundation/advisers.html">Advisers</a></li>
+                        <li><a href="/foundation/records.html">Records</a></li>
+						<li><a href="/foundation/minutes/">Minutes</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/projects/index.html">Projects</a>
+				<ul>
+					<div>
+						<li><a href="/projects/contribute.html">Contribute</a></li>
+						<li><a href="/projects/apply-for-grant.html">Apply for a grant</a></li>
+						<li><a href="/projects/join-as-project.html">Join as a project</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/programs/index.html">Programs</a>
+				<ul>
+					<div>
+						<li><a href="/programs/conferences.html">Conferences</a></li>
+						<li><a href="/programs/fellowships.html">Fellowships</a></li>
+						<li><a href="/programs/women-in-technology.html">Women in Technology</a></li>
+						<li><a href="/programs/gsoc.html">GSOC</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/news/index.html">News</a>
+				<ul>
+					<div>
+						<li><a href="/news/categories/news.html">News</a></li>
+						<li><a href="/news/categories/user-stories.html">User Stories</a></li>
+						<li><a href="/news/archives.html">Archives</a></li>
+					</div>
+				</ul>
+			</li>
+		</ul>
+	</section>
+</header>  <section class="content">
+    <section class="container">
+      <section class="primary">
+    <h1>Minutes - August 21,&nbsp;2013</h1>
+    
+
+    <section class="span8">
+    	<section>
+		    <div class="section" id="attendance">
+<h2>Attendance</h2>
+<p><strong>Participating</strong>:
+Ralf Gommers, Leah Silen, Anthony Scopatz, Fernando Perez, Jarrod Millman,
+Perry Greenfield, Andy Terrel, Travis&nbsp;Oliphant</p>
+<p>Tony Sebro, from Software Conservancy, providing feedback on our <span class="caps">FSA</span>&nbsp;draft.</p>
+<p><strong>Not Attending</strong>:
+Didrik Pinte, Emmanuelle&nbsp;Gouillart</p>
+</div>
+<div class="section" id="treasurers-report">
+<h2>Treasurer’s&nbsp;Report</h2>
+<p>Whoohoo!  The Microsoft donation for IPython came&nbsp;in!</p>
+<p>Approval of Minutes from Last&nbsp;Meeting</p>
+<div class="section" id="old-business">
+<h3>Old&nbsp;Business</h3>
+<div class="section" id="fsa-discussion-with-tony-sebro">
+<h4><span class="caps">FSA</span> discussion with Tony&nbsp;Sebro</h4>
+<p>Limited liability protection is afforded to the projects as well as a greater
+level of service, while it requires more&nbsp;oversight.</p>
+<p>Grantor/grantee model is more of an arm’s length relationship.  Only
+requirements are that the money is spent in accordance with the 501c3
+regulations. But project members are still an unincorporated loose coalition,
+tax liability is unclear for the projects,&nbsp;etc.</p>
+<p>Discussion of concrete example: Microsoft donation to IPython (paid to&nbsp;NumFOCUS).</p>
+<ol class="arabic simple">
+<li>paying developer in France to write&nbsp;tutorials</li>
+<li>hiring <span class="caps">US</span> developer (ex-Cal Poly student) as contractor for a&nbsp;year</li>
+</ol>
+<p>Question is if these two things work well under grantor-grantee model, or would
+it work better as comprehensive&nbsp;sponsor.</p>
+<p>#2 can be done. IPython writes up a grant, wants <span class="caps">NF</span> to allocate money to fund
+developer. <span class="caps">NF</span> contracts with developer. <span class="caps">NF</span> responsibility: check developer
+output is in keeping with the grant. Main thing to be careful for: don’t look
+like pass-through agent to <span class="caps">IRS</span>. Need paper trail showing IPython pitched the
+idea, <span class="caps">NF</span> reviewed it, it’s in the scope of <span class="caps">NF</span>, then <span class="caps">NF</span> drafted contract with
+developer. This becomes even more important if you want to fund&nbsp;yourself.</p>
+<p>Holding assets becomes more difficult in grantor-grantee model. Who owns IPython&nbsp;trademark?</p>
+<p>Being done now: Julia trademarks possible in future, astronomy library&nbsp;copyright.</p>
+<p>Assigning copyright is fine. Filing trademarks is hard if you’re not the entity
+using/producing the trademarked thing. One individual developer could do it
+(which is awkward); <span class="caps">NF</span> could still pay for it though. Dev can then assign
+trademark to <span class="caps">NF</span>, <span class="caps">NF</span> has to draw up a license for it (so project/developers can
+continue to use it). Solution may be to have a very broad trademark license.
+Other solution is to license to all leaders of the project. Yet another
+solution (also for reducing liability of individual devs): project incorporates
+(but doesn’t file for 501(c)3&nbsp;status).</p>
+<p><span class="caps">NF</span> also can’t then just give it away under all circumstances - only in the <span class="caps">US</span>
+but not to a foreign org (it’d have to be sold for market&nbsp;value).</p>
+<p>Upside of grantor-grantee model compared to comprehensive model: actions of one
+project cannot affect all other projects under the&nbsp;“umbrella”.</p>
+<p>Questions for&nbsp;Tony:</p>
+<ul>
+<li><p class="first">Q: <span class="caps">SWC</span> time effort, practical day-to-day workflow with&nbsp;projects?</p>
+<blockquote>
+<p>It depends… “Dormant” projects that don’t receive donations, don’t raise
+money, don’t create liability, require very little time. When projects want
+to host conferences themselves, that takes a ton of work.  For a
+grantor-grantee project, it’s much harder to run a conference or any other
+event that requires signing contracts for a venue, renting space, etc.
+Licensing issues can take time too, they require more legal scrutiny. <span class="caps">SWC</span>
+has two full-time staff for 29 projects, the bulk of the time is consumed
+by ~ ⅓ of&nbsp;those.</p>
+</blockquote>
+</li>
+<li><p class="first">Q: Under grantor/grantee, could <span class="caps">NF</span> still offer things like “10 hours of legal
+support per year, to be used by the project as&nbsp;needed”?</p>
+<blockquote>
+<p>There are some tricky nuances there: Tony’s retainer is with <span class="caps">NF</span>, but the
+discussions would be with third-parties that are not covered by
+attorney-client privilege as the projects do not belong to <span class="caps">NF</span>.  A
+relationship would have to be established with the individual projects.
+Tony will need to think more about this&nbsp;one.</p>
+</blockquote>
+</li>
+<li><p class="first">Q: Does every single expense need a grant? How would small things like paying
+for pizza for a meeting, or a night of hotel for a developer&nbsp;work?</p>
+<blockquote>
+<p>Some things are easy, e.g. a recurring cost for a hosting service.  One-off
+expenses should be recorded, though it can be relatively&nbsp;simple.</p>
+<ul class="simple">
+<li>Needed for all money distributed: grant request, grant approval and proof
+(i.e. a receipt) that the money was spent consistent with the&nbsp;request.</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">Q: Can the grant application process have “levels” for small/medium/large&nbsp;sizes?</p>
+<blockquote>
+<p>Yes, the <span class="caps">IRS</span> just expects standard business practices regarding diligence.
+Important: there must be a way of linking requests, approvals in board
+minutes and receipts. The paper trail needs to be easy to track and follow,
+in case an audit is required. <span class="caps">SWC</span> uses the open source Ledger, but it’s a
+low-level command-line tool, they are looking for a better open source
+solution. Even proprietary solutions like Quicken don’t work very well for
+non-profit, only quite expensive solutions work well for non-profit&nbsp;work.</p>
+</blockquote>
+</li>
+<li><p class="first">Q: Can <span class="caps">NF</span> work as ‘comprehensive’ sponsor for some projects and
+grantor/grantee for others? Does it raise red flags for the <span class="caps">IRS</span>?</p>
+<blockquote>
+<p>Yes, it can be done. <span class="caps">SWC</span> is considering doing that and has talked to other
+non-profits about that idea.  Fiscal sponsorship is already something that
+tends to attract heightened <span class="caps">IRS</span> scrutiny, this probably won’t add any more
+to that&nbsp;scrutiny.</p>
+</blockquote>
+</li>
+<li><p class="first">Q: Is there any experience working with academics working for Universities on
+grantor-grantee model?  Specifically, we would like to avoid the large
+overhead fees that Universities charge on federal&nbsp;grants.</p>
+<blockquote>
+<p>For the most part the academic worlds are kept completely separate from the
+<span class="caps">SWC</span> work. Have not had to deal with granting money to University sponsored
+projects. <span class="caps">SWC</span> tries to be part of the process for hiring employees with
+project to make sure the due diligence is followed, in those instances we
+probably would not go with an&nbsp;academic.</p>
+<ul class="simple">
+<li><span class="caps">SWC</span> uses ~ $75/hour as their standard rate for contractors, they need to
+go to the board for anything above&nbsp;that.</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">Q: Member project raises money themselves. Is there a mechanism in
+grantor-grantee model that allows for that money to go to <span class="caps">NF</span>?</p>
+<blockquote>
+<p>Money follows from use of trademark (t-shirts, conference, etc.). <span class="caps">NF</span> can be
+beneficiary of this money, but if trademark is not owned by <span class="caps">NF</span> then person
+raising the money is entitled to keep&nbsp;it.</p>
+</blockquote>
+</li>
+<li><p class="first">Q: You (Tony) saw an ambiguity in current <span class="caps">FSA</span>. What needs to change in the
+<span class="caps">FSA</span> in order for it to fit the grantor-grantee&nbsp;model?</p>
+<blockquote>
+<p>If you want to go to the grantor-grantee model I suggest you start over.
+Section 2C of the <span class="caps">SWC</span> agreement was taken out, which wouldn’t exist in a
+grantor-grantee relationship. The grantor-grantee <span class="caps">FSA</span> would need to&nbsp;contain:</p>
+<ul class="simple">
+<li>Agreement that <span class="caps">NF</span> accepts donations on behalf of&nbsp;project.</li>
+<li>Agreement that <span class="caps">NF</span> allocates that money through&nbsp;grants.</li>
+<li>Outline the structure under which the project can make grant requests to
+<span class="caps">NF</span> (this is completely missing in <span class="caps">SWC</span> agreement, because it’s not&nbsp;needed).</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">Q: How difficult is it for a <span class="caps">NF</span> to switch types of&nbsp;sponsorship?</p>
+<blockquote>
+<p>It would be easy to move from a grantor-grantees relationship to
+comprehensive.  But the major problem with any termination is what happens
+with the assets.  From gg-&gt;comp you keep ownership, from comp-&gt;gg you might
+either have to grant the assets to another 5013c or sell it at market&nbsp;rate.</p>
+<p>Tony: We have a threshold question, “Do we want a comprehensive or
+grantor/grantee&nbsp;model?”</p>
+</blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="approval-of-retainer-for-tony-sebros-legal-services">
+<h4>Approval of retainer for Tony Sebro’s legal&nbsp;services</h4>
+<p><a class="reference external" href="https://docs.google.com/a/numfocus.org/file/d/0B-gSJFIZZXQPcU5xQkc3anBuUmM/edit">https://docs.google.com/a/numfocus.org/file/d/0B-gSJFIZZXQPcU5xQkc3anBuUmM/edit</a></p>
+</div>
+</div>
+</div>
+<div class="section" id="action-items">
+<h2>Action&nbsp;Items</h2>
+<p><span class="caps">FP</span>:  Send email to Tony with questions and&nbsp;answers.</p>
+</div>
+
+		</section>
+	</section>
+
+      </section>
+      <section class="sidebar">
+<section class="sidebar-interior">
+<div class="sponsors">
+	<h4>Corporate Sponsors</h4>
+	
+	<div class="platinum">
+		<h5>Platinum</h5>
+		<ul>
+			<li><a href=""><img src="../../theme/img/sponsors/JPM-logo.png" alt="JP Morgan"/></a></li>
+			<li><a href=""><img src="../../theme/img/sponsors/microsoft-logo.png" alt="Microsoft"/></a></li>
+		</ul>
+	</div>
+	<div class="gold">
+		<h5>Gold</h5>
+		<ul>
+			<li><a href=""><img src="../../theme/img/sponsors/continuum-logo.png" alt="Continuum"/></a></li>
+		</ul>
+	</div>
+</div> 
+</section> 
+      </section>
+    </section>
+  </section> 
+<section class="footer clear">
+	<section class="container">
+		<ul class="footer-nav clear">
+			<li><a href="../../projects/">Projects</a>
+				<ul>
+					<li><a href="../../projects/#core-projects">Core Projects</a></li>
+					<li><a href="../../projects/#other-projects">Other Projects</a></li>
+					<li><a href="../../projects/#associated-projects">Associated Projects</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="../../foundation/">About NumFOCUS</a>
+				<ul>
+					<li><a href="../../foundation/board.html">Board</a></li>
+					<li><a href="../../foundation/records.html">Public Records</a></li>
+					<li><a href="../../media/docs/bylaws.pdf">Bylaws</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+		<div class="contact">
+			<h3>Contact NumFOCUS</h3>
+			<div>
+				<span>NumFOCUS</span>
+				<span>P.O. Box 90596</span>
+				<span>Austin, TX 78709</span>
+				<a href="mailto:info@numfocus.org">info@numfocus.org</a>
+			</div>
+		</div>
+<div class="mailing-list">
+	<div class="google-group">
+		<h3>Join the Mailing List</h3>
+		<a href="https://groups.google.com/forum/#!forum/numfocus">Sign Up Now</a>
+	</div>
+	<div class="social">
+		<a class="github" target="_blank" href="https://github.com/numfocus">GitHub</a>
+		<a class="twitter" target="_blank" href="https://twitter.com/numfocus">Twitter</a>
+		<a class="google" target="_blank" href="https://plus.google.com/communities/100008130850352595608">Google+</a>
+	</div>
+</div>	</section>
+</section>
+  </body>
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+<title>NumFOCUS Foundation - </title>
+<meta charset="utf-8" />
+
+<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+<!-- fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="../../theme/css/style.css" />
+<link rel="shortcut icon" href="../../theme/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../../theme/img/favicon.ico" type="image/x-icon">
+ 
+<script type="text/javascript">
+	$(function() {
+    
+    //this is a subpage (catches top level menu items)
+    if(location.pathname.split("/")[1]!='') {
+      pagePath=location.pathname.split("/")[1];
+      $('.nav > li > a[href^="/'+pagePath+'"]').parent('li').addClass('active');
+    }
+
+    ////this is a secondary subpage (catches second level menu items)
+    if(location.pathname.split("/")[2]!='') {
+      pagePath=location.pathname.split("/")[2];
+      $('li > ul  li > a[href*="'+pagePath+'"]').parent('li').addClass('active');
+    }
+
+	});
+</script>
+  </head>
+  <body>
+<header class="downstream">
+	<section class="container nopad">
+		<a href="/" class="header_logo">
+			<img src="/theme/img/numfocus_logo.png" alt="NumFOCUS"/>
+		</a>
+		<div class="buttons">
+		<btn>
+				<a href="/take-action/join.html" class="btn grey">Join</a>
+			</btn>
+			<btn>
+				<a href="/take-action/donate.html" class="btn yellow">Donate</a>
+			</btn>
+		</div>
+		<ul class="nav">
+			<li><a href="/take-action/index.html">Take Action</a>
+				<ul>
+					<div>
+						<li><a href="/take-action/join.html">Join NumFOCUS</a></li>
+						<li><a href="/take-action/donate.html">Donate</a></li>
+						<li><a href="/take-action/sponsorship.html">Sponsor</a></li>
+						<li><a href="/take-action/mailing-list.html">Mailing List</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/foundation/index.html">Foundation</a>
+				<ul>
+					<div>
+						<li><a href="/foundation/staff.html">Staff</a></li>
+						<li><a href="/foundation/board.html">Board</a></li>
+						<li><a href="/foundation/vice_presidents.html">Vice Presidents</a></li>
+						<li><a href="/foundation/advisers.html">Advisers</a></li>
+                        <li><a href="/foundation/records.html">Records</a></li>
+						<li><a href="/foundation/minutes/">Minutes</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/projects/index.html">Projects</a>
+				<ul>
+					<div>
+						<li><a href="/projects/contribute.html">Contribute</a></li>
+						<li><a href="/projects/apply-for-grant.html">Apply for a grant</a></li>
+						<li><a href="/projects/join-as-project.html">Join as a project</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/programs/index.html">Programs</a>
+				<ul>
+					<div>
+						<li><a href="/programs/conferences.html">Conferences</a></li>
+						<li><a href="/programs/fellowships.html">Fellowships</a></li>
+						<li><a href="/programs/women-in-technology.html">Women in Technology</a></li>
+						<li><a href="/programs/gsoc.html">GSOC</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/news/index.html">News</a>
+				<ul>
+					<div>
+						<li><a href="/news/categories/news.html">News</a></li>
+						<li><a href="/news/categories/user-stories.html">User Stories</a></li>
+						<li><a href="/news/archives.html">Archives</a></li>
+					</div>
+				</ul>
+			</li>
+		</ul>
+	</section>
+</header>  <section class="content">
+    <section class="container">
+      <section class="primary">
+    <h1>Minutes - August 01,&nbsp;2012</h1>
+    
+
+    <section class="span8">
+    	<section>
+		    <div class="section" id="attendance">
+<h2>Attendance</h2>
+<p><strong>Participating</strong>:
+Leah Holdridge, Travis Oliphant, Jarrod Millman, Perry Greenfield, Fernando
+Perez, Anthony Scopatz.  Greg Wilson is present as&nbsp;guest.</p>
+<p><strong>Not Attending</strong>:
+John&nbsp;Hunter</p>
+</div>
+<div class="section" id="treasurers-report">
+<h2>Treasurer’s&nbsp;Report</h2>
+<ul class="simple">
+<li>Decided to fund PyPy-in-a-box (Maciej&nbsp;Fijalkowski).</li>
+</ul>
+<div class="section" id="old-business">
+<h3>Old&nbsp;Business</h3>
+<ul class="simple">
+<li>SciPy: citations project, reorganization of web pages for numpy/scipy,
+Numfocus could encourage/support this process.  Good funding discussion, the
+idea that numfocus could be explicitly promoting the&nbsp;tools.</li>
+<li>Idea: as part of our grants program, we could offer a small amount (yet to be
+determined) to community members who offer to run specific events at their
+conferences: tutorials, minisymposia, panels, etc.&nbsp;The</li>
+<li>501(c)(3)&nbsp;Update</li>
+</ul>
+<p>Leah is working on a detailed narrative that is required by the <span class="caps">IRS</span> for the
+application.  Indicating what we are solving by creating the organization.  We
+need to have concrete amounts on how much we fund things like students and
+mentors in our fellowship program, since these questions are very specific in
+the <span class="caps">IRS</span> application.  Leah sent the ‘Group exemptions’ information, as we need
+to apply for that separately.  This lets us act as umbrella organization for
+other groups (astropy, sympy, etc).  This is separate from fiscal sponsorship,
+these groups become known as ‘Subordinate organizations’.  Greg Wilson
+indicates that if the <span class="caps">PSF</span> had done this 14 years ago, the process for Software
+Carpentry would have been much smoother.  It would give a path for small to
+medium sized groups to have the benefits of 501c3 status without having to do
+the full-blown application process by themselves.  In practice, the <span class="caps">IRS</span> is
+delegating the authority to grant 501c3 coverage to us, as long as we accept
+the responsibility of vetting and monitoring those who get that&nbsp;coverage.</p>
+<ul class="simple">
+<li>Individual donor&nbsp;contributions</li>
+<li>Bylaws:&nbsp;signing</li>
+<li><span class="caps">AOE</span> media Inc.&nbsp;sponsorship</li>
+</ul>
+</div>
+<div class="section" id="new-business">
+<h3>New&nbsp;Business</h3>
+<ul class="simple">
+<li>Changes to our Certificate of Formation:  need formal approval of new purpose
+and supplemental provision reflecting the purpose of NumFOCUS agreed on last&nbsp;meeting</li>
+<li>Citation/publication list:&nbsp;Anthony</li>
+<li>Sloan foundation opportunities:&nbsp;Fernando</li>
+<li>For 501c3&nbsp;application:</li>
+</ul>
+<ol class="arabic simple">
+<li>we need to have an itemized list of all gifts, grants, and other amounts
+paid out for this year. We have a total of $34,000 on our&nbsp;budget</li>
+<li>I also have to itemize gross receipts from merchandise sold or services
+performed.  We have $750 for this year on the&nbsp;budget.</li>
+</ol>
+<p>Since this is not required by the <span class="caps">IRS</span>, we will zero it out for now and will
+deal with sales/services when we actually have&nbsp;any.</p>
+<ul class="simple">
+<li>Addresses for Jarrod and John to send the bylaws signature&nbsp;page</li>
+<li>501c3 Group&nbsp;Exemptions</li>
+<li>Donations: Jarrod will check that donating actually works with a small
+amount, and then will draft a mini-pledge drive and then with Fernando will
+send it to all the relevant mailing lists asking for small amounts.  We will
+in the next meeting collect statistics on&nbsp;this.</li>
+<li>We need to find out how to make a donation without forcing the donor to have
+a paypal/google account.  Paypal seems to indicate that’s possible
+(<a class="reference external" href="https://www.paypal.com/uk/cgi-bin/webscr?cmd=xpt/cps/general/OptionalAccount-outside">https://www.paypal.com/uk/cgi-bin/webscr?cmd=xpt/cps/general/OptionalAccount-outside</a>),
+but their payment page doesn’t show a way to not create an&nbsp;account.</li>
+<li>Greg&nbsp;Wilson</li>
+</ul>
+<p>By 5pm Friday, Mozilla has to submit an application to the Sloan foundation
+that will fund Software Carpentry (<span class="caps">SWC</span>) for 2 years.  This would allow <span class="caps">SWC</span> to
+scale its coverage to ~2500-3000 scientists.  The workshops would continue
+covering the ‘stack’ <span class="caps">SWC</span> covers so far: shell, version control, testing,
+python, etc.  Greg Wilson is shifting his personal focus to ‘train the
+trainers’ so that <span class="caps">SWC</span> has more trainers.  Greg is asking for better
+communication and coordination with numfocus on what tools we use, how we
+teach, etc.  If grant is funded, Matlab will be dropped from the curriculum,
+and Windows support may also be dropped because Windows users consume too many
+resources. Git may be dropped as the version control tool in favor of mercurial
+because of past difficulties. <span class="caps">SWC</span> is looking to expand towards Latin America
+and the European&nbsp;Union.</p>
+<ul class="simple">
+<li>Josh Greenberg: Fernando will contact Josh, Travis and Leah to start the
+conversation with the Sloan foundation regarding possible help from them with
+our becoming a&nbsp;501c3.</li>
+<li>There are a few changes to the <span class="caps">IRS</span>.  We need to amend the old purpose of the
+foundation to a new&nbsp;purpose:</li>
+</ul>
+</div>
+</div>
+<div class="section" id="new-purpose">
+<h2>New&nbsp;purpose:</h2>
+<p>The  purpose of NumFOCUS is to promote the use of accessible and reproducible
+computing in science and&nbsp;technology.</p>
+<p>This is accomplished&nbsp;through:</p>
+<ul class="simple">
+<li>Educational&nbsp;programs</li>
+<li>The promotion of high-level languages, reproducible scientific research, and
+open-code&nbsp;development</li>
+<li>An increase in collaborative research tools and&nbsp;documentation</li>
+</ul>
+</div>
+<div class="section" id="old-purpose">
+<h2>Old&nbsp;purpose:</h2>
+<p>Through research grants, scholarships, project sponsorships, and maintenance of
+open source software, NumFOCUS will promote the development and use of
+high-level, array-based computer languages for improving the practice of
+reproducible science, engineering, and data&nbsp;analytics.</p>
+<p>Votes: Jarrod, Perry, Fernando approve these changes to our official purpose&nbsp;statement.</p>
+</div>
+
+		</section>
+	</section>
+
+      </section>
+      <section class="sidebar">
+<section class="sidebar-interior">
+<div class="sponsors">
+	<h4>Corporate Sponsors</h4>
+	
+	<div class="platinum">
+		<h5>Platinum</h5>
+		<ul>
+			<li><a href=""><img src="../../theme/img/sponsors/JPM-logo.png" alt="JP Morgan"/></a></li>
+			<li><a href=""><img src="../../theme/img/sponsors/microsoft-logo.png" alt="Microsoft"/></a></li>
+		</ul>
+	</div>
+	<div class="gold">
+		<h5>Gold</h5>
+		<ul>
+			<li><a href=""><img src="../../theme/img/sponsors/continuum-logo.png" alt="Continuum"/></a></li>
+		</ul>
+	</div>
+</div> 
+</section> 
+      </section>
+    </section>
+  </section> 
+<section class="footer clear">
+	<section class="container">
+		<ul class="footer-nav clear">
+			<li><a href="../../projects/">Projects</a>
+				<ul>
+					<li><a href="../../projects/#core-projects">Core Projects</a></li>
+					<li><a href="../../projects/#other-projects">Other Projects</a></li>
+					<li><a href="../../projects/#associated-projects">Associated Projects</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="../../foundation/">About NumFOCUS</a>
+				<ul>
+					<li><a href="../../foundation/board.html">Board</a></li>
+					<li><a href="../../foundation/records.html">Public Records</a></li>
+					<li><a href="../../media/docs/bylaws.pdf">Bylaws</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+		<div class="contact">
+			<h3>Contact NumFOCUS</h3>
+			<div>
+				<span>NumFOCUS</span>
+				<span>P.O. Box 90596</span>
+				<span>Austin, TX 78709</span>
+				<a href="mailto:info@numfocus.org">info@numfocus.org</a>
+			</div>
+		</div>
+<div class="mailing-list">
+	<div class="google-group">
+		<h3>Join the Mailing List</h3>
+		<a href="https://groups.google.com/forum/#!forum/numfocus">Sign Up Now</a>
+	</div>
+	<div class="social">
+		<a class="github" target="_blank" href="https://github.com/numfocus">GitHub</a>
+		<a class="twitter" target="_blank" href="https://twitter.com/numfocus">Twitter</a>
+		<a class="google" target="_blank" href="https://plus.google.com/communities/100008130850352595608">Google+</a>
+	</div>
+</div>	</section>
+</section>
+  </body>
+</html>

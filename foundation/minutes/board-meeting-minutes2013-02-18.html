@@ -1,0 +1,261 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+<title>NumFOCUS Foundation - </title>
+<meta charset="utf-8" />
+
+<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+<!-- fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="../../theme/css/style.css" />
+<link rel="shortcut icon" href="../../theme/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../../theme/img/favicon.ico" type="image/x-icon">
+ 
+<script type="text/javascript">
+	$(function() {
+    
+    //this is a subpage (catches top level menu items)
+    if(location.pathname.split("/")[1]!='') {
+      pagePath=location.pathname.split("/")[1];
+      $('.nav > li > a[href^="/'+pagePath+'"]').parent('li').addClass('active');
+    }
+
+    ////this is a secondary subpage (catches second level menu items)
+    if(location.pathname.split("/")[2]!='') {
+      pagePath=location.pathname.split("/")[2];
+      $('li > ul  li > a[href*="'+pagePath+'"]').parent('li').addClass('active');
+    }
+
+	});
+</script>
+  </head>
+  <body>
+<header class="downstream">
+	<section class="container nopad">
+		<a href="/" class="header_logo">
+			<img src="/theme/img/numfocus_logo.png" alt="NumFOCUS"/>
+		</a>
+		<div class="buttons">
+		<btn>
+				<a href="/take-action/join.html" class="btn grey">Join</a>
+			</btn>
+			<btn>
+				<a href="/take-action/donate.html" class="btn yellow">Donate</a>
+			</btn>
+		</div>
+		<ul class="nav">
+			<li><a href="/take-action/index.html">Take Action</a>
+				<ul>
+					<div>
+						<li><a href="/take-action/join.html">Join NumFOCUS</a></li>
+						<li><a href="/take-action/donate.html">Donate</a></li>
+						<li><a href="/take-action/sponsorship.html">Sponsor</a></li>
+						<li><a href="/take-action/mailing-list.html">Mailing List</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/foundation/index.html">Foundation</a>
+				<ul>
+					<div>
+						<li><a href="/foundation/staff.html">Staff</a></li>
+						<li><a href="/foundation/board.html">Board</a></li>
+						<li><a href="/foundation/vice_presidents.html">Vice Presidents</a></li>
+						<li><a href="/foundation/advisers.html">Advisers</a></li>
+                        <li><a href="/foundation/records.html">Records</a></li>
+						<li><a href="/foundation/minutes/">Minutes</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/projects/index.html">Projects</a>
+				<ul>
+					<div>
+						<li><a href="/projects/contribute.html">Contribute</a></li>
+						<li><a href="/projects/apply-for-grant.html">Apply for a grant</a></li>
+						<li><a href="/projects/join-as-project.html">Join as a project</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/programs/index.html">Programs</a>
+				<ul>
+					<div>
+						<li><a href="/programs/conferences.html">Conferences</a></li>
+						<li><a href="/programs/fellowships.html">Fellowships</a></li>
+						<li><a href="/programs/women-in-technology.html">Women in Technology</a></li>
+						<li><a href="/programs/gsoc.html">GSOC</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/news/index.html">News</a>
+				<ul>
+					<div>
+						<li><a href="/news/categories/news.html">News</a></li>
+						<li><a href="/news/categories/user-stories.html">User Stories</a></li>
+						<li><a href="/news/archives.html">Archives</a></li>
+					</div>
+				</ul>
+			</li>
+		</ul>
+	</section>
+</header>  <section class="content">
+    <section class="container">
+      <section class="primary">
+    <h1>Minutes - February 18,&nbsp;2013</h1>
+    
+
+    <section class="span8">
+    	<section>
+		    <div class="section" id="attendance">
+<h2>Attendance</h2>
+<p><strong>Participating</strong>:
+Leah Silen, Travis Oliphant, Anthony Scopatz, Fernando Perez, Andy R. Terrel,
+Perry Greenfield, Jarrod Millman, Emmanuelle&nbsp;Gouillart</p>
+<p><strong>Not Attending</strong>:
+Prabhu Ramachandran, Ralf&nbsp;Gommers</p>
+</div>
+<div class="section" id="approval-of-prior-minutes">
+<h2>Approval of prior&nbsp;minutes</h2>
+<p>Prior minutes have been&nbsp;approved.</p>
+</div>
+<div class="section" id="treasurers-report">
+<h2>Treasurer’s&nbsp;Report</h2>
+<p>Purchased MacMini and rented space to host it at&nbsp;MacMiniVault.</p>
+<ol class="arabic simple">
+<li>MacMiniValut Annual Rental:&nbsp;$323.46</li>
+<li>MacMini - 2.3 GHz i7, 8 <span class="caps">GB</span> Memory: $899 + Tax +&nbsp;Shipping</li>
+</ol>
+<div class="section" id="old-business">
+<h3>Old&nbsp;Business</h3>
+<ol class="loweralpha simple">
+<li>Fundraising for Boot Camp for Women in Science and&nbsp;Engineering</li>
+</ol>
+<p>Travis started blog post and will add a link on the numfocus site to have a targeted donation.  Will have an embeddable button so others can put on their pages the snippet which would create donations that are automatically tagged for this boot camp.  Travis will send the link once it’s ready so we can all&nbsp;tweet/g+.</p>
+<ol class="loweralpha simple" start="2">
+<li>Update for Mac&nbsp;Mini</li>
+</ol>
+<p>See treasurer’s report&nbsp;above.</p>
+<ol class="loweralpha simple" start="3">
+<li>PyGotham&nbsp;update</li>
+</ol>
+<p>It has a connection to the women in bootcamp as it’s run by Gloria, a member of PyLadies.  Travis is planning to contact more targeted people in <span class="caps">NYC</span> that he knows, and continues to work on&nbsp;this.</p>
+<ol class="loweralpha simple" start="4">
+<li>Board size&nbsp;update</li>
+</ol>
+<p>5 responses, keep odd number and 9 members, and consider issue now&#8212;not later.  The plan is to move in the direction of replacing Prabhu with Didrik Pinte from Enthought, which was suggested in an email by Prabhu.  Jarrod will contact Prabhu to double-check that he’s <span class="caps">OK</span> with the idea and that the board didn’t mis-understand his intent.  Jarrod will encourage Prabhu to remain as engaged with Numfocus as his time allows, without having to worry about making the time for the Board meetings.  We’ll also ask him to remain on the board until Didrik accepts.  Once he accepts, Jarrod will get his email/bio/photo for the&nbsp;website.</p>
+</div>
+<div class="section" id="team-reports">
+<h3>Team&nbsp;Reports</h3>
+</div>
+</div>
+<div class="section" id="membership">
+<h2>Membership</h2>
+<p>Perry is preparing a document that would be a “Why should you be a Numfocus member?” discussion that can be disseminated to encourage membership.  It will promote both the self-interested and altruistic benefits of membership.  This will be available as a distributable brochure and as an html page on the site.  It would be ideal to have it done by PyCon&nbsp;2013.</p>
+</div>
+<div class="section" id="fundraising">
+<h2>Fundraising</h2>
+<p>We plan to build a page that has a number of events that are happening within the scope of Numfocus: scientific python conferences, tracks/minisymposia at larger conferences, meetings, bootcamps, sprints, etc.  This page would summarize all upcoming events, with link to the event’s own page, and would offer a single button per event to allow targeted donations to be made.  There would also be a main button for generic donations, in case someone wants to make an un-targeted donation, but the specific buttons will allow people to choose which event they want to&nbsp;fund.</p>
+<p>Need concise (1-page?) summary for fundraising available as <span class="caps">PDF</span> and <span class="caps">HTML</span> (maybe discussion with&nbsp;Publicity/promotion).</p>
+</div>
+<div class="section" id="publicity-promotion">
+<h2>Publicity/Promotion</h2>
+<p>twitter added to numfocus website.  Fernando will also tweet from it, and so can others.  It will be linked in the pydata&nbsp;site.</p>
+</div>
+<div class="section" id="grants-fellowships">
+<h2>Grants/Fellowships</h2>
+<p>Andy and Ralf have been swamped with Scipy’13 organization, but continue to make progress on the financing of the technical fellowship.  More will be announced at the next&nbsp;meeting.</p>
+</div>
+<div class="section" id="finance">
+<h2>Finance</h2>
+<p>Anthony is focusing on getting Numfocus a European banking account and our upcoming tax&nbsp;filing.</p>
+<div class="section" id="new-business">
+<h3>New&nbsp;Business</h3>
+<ol class="loweralpha simple">
+<li>Transfer of SciPy Central domain names to&nbsp;NumFOCUS.</li>
+</ol>
+<p>Numfocus has hosting at namecheap.com, we need to get an <span class="caps">EPP</span> code from the original owner of the domain.  Jarrod will sort out who owns the domain right now to get the&nbsp;codes.</p>
+<p>Numpy.org has already been transfered, numpy.com has had a glitch where the <span class="caps">EPP</span> codes have failed, need to investigate&nbsp;further.</p>
+</div>
+</div>
+
+		</section>
+	</section>
+
+      </section>
+      <section class="sidebar">
+<section class="sidebar-interior">
+<div class="sponsors">
+	<h4>Corporate Sponsors</h4>
+	
+	<div class="platinum">
+		<h5>Platinum</h5>
+		<ul>
+			<li><a href=""><img src="../../theme/img/sponsors/JPM-logo.png" alt="JP Morgan"/></a></li>
+			<li><a href=""><img src="../../theme/img/sponsors/microsoft-logo.png" alt="Microsoft"/></a></li>
+		</ul>
+	</div>
+	<div class="gold">
+		<h5>Gold</h5>
+		<ul>
+			<li><a href=""><img src="../../theme/img/sponsors/continuum-logo.png" alt="Continuum"/></a></li>
+		</ul>
+	</div>
+</div> 
+</section> 
+      </section>
+    </section>
+  </section> 
+<section class="footer clear">
+	<section class="container">
+		<ul class="footer-nav clear">
+			<li><a href="../../projects/">Projects</a>
+				<ul>
+					<li><a href="../../projects/#core-projects">Core Projects</a></li>
+					<li><a href="../../projects/#other-projects">Other Projects</a></li>
+					<li><a href="../../projects/#associated-projects">Associated Projects</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="../../foundation/">About NumFOCUS</a>
+				<ul>
+					<li><a href="../../foundation/board.html">Board</a></li>
+					<li><a href="../../foundation/records.html">Public Records</a></li>
+					<li><a href="../../media/docs/bylaws.pdf">Bylaws</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+		<div class="contact">
+			<h3>Contact NumFOCUS</h3>
+			<div>
+				<span>NumFOCUS</span>
+				<span>P.O. Box 90596</span>
+				<span>Austin, TX 78709</span>
+				<a href="mailto:info@numfocus.org">info@numfocus.org</a>
+			</div>
+		</div>
+<div class="mailing-list">
+	<div class="google-group">
+		<h3>Join the Mailing List</h3>
+		<a href="https://groups.google.com/forum/#!forum/numfocus">Sign Up Now</a>
+	</div>
+	<div class="social">
+		<a class="github" target="_blank" href="https://github.com/numfocus">GitHub</a>
+		<a class="twitter" target="_blank" href="https://twitter.com/numfocus">Twitter</a>
+		<a class="google" target="_blank" href="https://plus.google.com/communities/100008130850352595608">Google+</a>
+	</div>
+</div>	</section>
+</section>
+  </body>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+<title>NumFOCUS Foundation - </title>
+<meta charset="utf-8" />
+
+<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+<!-- fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="../../theme/css/style.css" />
+<link rel="shortcut icon" href="../../theme/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../../theme/img/favicon.ico" type="image/x-icon">
+ 
+<script type="text/javascript">
+	$(function() {
+    
+    //this is a subpage (catches top level menu items)
+    if(location.pathname.split("/")[1]!='') {
+      pagePath=location.pathname.split("/")[1];
+      $('.nav > li > a[href^="/'+pagePath+'"]').parent('li').addClass('active');
+    }
+
+    ////this is a secondary subpage (catches second level menu items)
+    if(location.pathname.split("/")[2]!='') {
+      pagePath=location.pathname.split("/")[2];
+      $('li > ul  li > a[href*="'+pagePath+'"]').parent('li').addClass('active');
+    }
+
+	});
+</script>
+  </head>
+  <body>
+<header class="downstream">
+	<section class="container nopad">
+		<a href="/" class="header_logo">
+			<img src="/theme/img/numfocus_logo.png" alt="NumFOCUS"/>
+		</a>
+		<div class="buttons">
+		<btn>
+				<a href="/take-action/join.html" class="btn grey">Join</a>
+			</btn>
+			<btn>
+				<a href="/take-action/donate.html" class="btn yellow">Donate</a>
+			</btn>
+		</div>
+		<ul class="nav">
+			<li><a href="/take-action/index.html">Take Action</a>
+				<ul>
+					<div>
+						<li><a href="/take-action/join.html">Join NumFOCUS</a></li>
+						<li><a href="/take-action/donate.html">Donate</a></li>
+						<li><a href="/take-action/sponsorship.html">Sponsor</a></li>
+						<li><a href="/take-action/mailing-list.html">Mailing List</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/foundation/index.html">Foundation</a>
+				<ul>
+					<div>
+						<li><a href="/foundation/staff.html">Staff</a></li>
+						<li><a href="/foundation/board.html">Board</a></li>
+						<li><a href="/foundation/vice_presidents.html">Vice Presidents</a></li>
+						<li><a href="/foundation/advisers.html">Advisers</a></li>
+                        <li><a href="/foundation/records.html">Records</a></li>
+						<li><a href="/foundation/minutes/">Minutes</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/projects/index.html">Projects</a>
+				<ul>
+					<div>
+						<li><a href="/projects/contribute.html">Contribute</a></li>
+						<li><a href="/projects/apply-for-grant.html">Apply for a grant</a></li>
+						<li><a href="/projects/join-as-project.html">Join as a project</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/programs/index.html">Programs</a>
+				<ul>
+					<div>
+						<li><a href="/programs/conferences.html">Conferences</a></li>
+						<li><a href="/programs/fellowships.html">Fellowships</a></li>
+						<li><a href="/programs/women-in-technology.html">Women in Technology</a></li>
+						<li><a href="/programs/gsoc.html">GSOC</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/news/index.html">News</a>
+				<ul>
+					<div>
+						<li><a href="/news/categories/news.html">News</a></li>
+						<li><a href="/news/categories/user-stories.html">User Stories</a></li>
+						<li><a href="/news/archives.html">Archives</a></li>
+					</div>
+				</ul>
+			</li>
+		</ul>
+	</section>
+</header>  <section class="content">
+    <section class="container">
+      <section class="primary">
+    <h1>Minutes - March 31,&nbsp;2014</h1>
+    
+
+    <section class="span8">
+    	<section>
+		    <div class="section" id="attendance">
+<h2>Attendance</h2>
+<p><strong>Participating</strong>:
+Leah Silen, Fernando Perez, Anthony Scopatz, Ralf Gommers, Perry&nbsp;Greenfield</p>
+<p><strong>Not Attending</strong>:
+Andy Terrel, Travis Oliphant, Emmanuelle Gouillart, Jarrod Millman, Didrik&nbsp;Pinte</p>
+</div>
+<div class="section" id="approval-of-minutes-from-last-meeting">
+<h2>Approval of Minutes from Last&nbsp;Meeting</h2>
+<p>Minutes were&nbsp;approved.</p>
+</div>
+<div class="section" id="treasurer-s-report">
+<h2>Treasurer&#8217;s&nbsp;Report</h2>
+<ul class="simple">
+<li>Anthony gave an update on bank&nbsp;balances.</li>
+<li>Documentation for PyData income needed, Leah will follow up on&nbsp;this.</li>
+</ul>
+<div class="section" id="old-business">
+<h3>Old&nbsp;Business</h3>
+<div class="section" id="elections">
+<h4>Elections</h4>
+<p>Discussed a draft.  Getting this document up on website / out on the mailing
+list is getting somewhat urgent. Not enough people now, to be taken up on the
+admin list this&nbsp;week.</p>
+</div>
+<div class="section" id="website-update">
+<h4>Website&nbsp;update</h4>
+<ul class="simple">
+<li>Determine categories or labels to distinguish the projects we promote/support
+and those who have signed <span class="caps">FSA</span>’s.<ul>
+<li>Distinguishing&nbsp;projects</li>
+<li>Continue on&nbsp;GitHub</li>
+</ul>
+</li>
+<li><span class="caps">FSA</span> article on IPython, SymPy and Astropy on website home&nbsp;page.</li>
+<li>Leah has press release about already signed FSAs. To be put up on website as
+soon as AstroPy has&nbsp;signed.</li>
+</ul>
+</div>
+<div class="section" id="astropy-fsa">
+<h4>Astropy <span class="caps">FSA</span></h4>
+<p>Awaiting one signature, Perry will follow up on&nbsp;this.</p>
+</div>
+<div class="section" id="legal-advice-on-developer-contract">
+<h4>Legal advice on developer&nbsp;contract</h4>
+<p>Tony Sebro’s answer to the question regarding developers, such as Jonathan
+Frederic, needing a&nbsp;contract.</p>
+<p>Recap of 3/26 call with Tony Sebro regarding NumFocus hiring developers as&nbsp;contractors:</p>
+<ol class="arabic simple">
+<li>Developers working for a project should have an Independent Contractor
+relationship with&nbsp;NumFocus.</li>
+<li>A signed agreement is needed and the developer should be given a proposal,
+from <span class="caps">NF</span> of work that is to be&nbsp;done.</li>
+<li>The agreement should be separate from the proposal, and contain deliverables
+and the process in which the work will be evaluated. It should state that
+the work is licensed under <span class="caps">BSD</span> and make sure that <span class="caps">NF</span> retains ownership or
+that the copyright is assigned to <span class="caps">NF</span>. [Unless <span class="caps">NF</span> wants the contractor to own&nbsp;copyrights]</li>
+<li>It’s just good practice to make sure it’s the project’s work and not the&nbsp;individual’s.</li>
+<li>Tony has a template of an agreement we can use. He would not have to create
+a new document. He could customize the template in less than one&nbsp;hour.</li>
+<li>He highly recommends the contractor post the deliverables in a public place,
+e.g. IPython’s blog or website, saying what was done, how long was spent and
+that an invoice was given to <span class="caps">NF</span>.</li>
+<li>“In case of an audit you can’t point the <span class="caps">IRS</span> to commit&nbsp;logs.”</li>
+<li>He also suggested that to “clean things up” <span class="caps">NF</span> should own all of the
+project’s&nbsp;domains.</li>
+</ol>
+<p>Leah will ask Tony to contact Fernando (who forwards to the IPython <span class="caps">FSA</span>
+co-signer mailing list) about customizing the template for&nbsp;IPython.</p>
+</div>
+</div>
+<div class="section" id="new-business">
+<h3>New&nbsp;Business</h3>
+<div class="section" id="numfocus-vs-numfocus">
+<h4>Numfocus vs.&nbsp;NumFocus</h4>
+<p>No strong feelings either way, pick this up next time when Andy is&nbsp;here.</p>
+</div>
+<div class="section" id="jh-fellowship-r-julia">
+<h4><span class="caps">JH</span> fellowship - R <span class="amp">&amp;</span>&nbsp;Julia</h4>
+<p>Discussed whether or not to forward to Julia and R mailing lists. Agreed that
+this is a good idea - nothing in the call for proposals is specifically aimed
+at Python, and projects like IPython are getting more involved with R and
+Julia. Ralf will do that this&nbsp;week.</p>
+</div>
+</div>
+</div>
+
+		</section>
+	</section>
+
+      </section>
+      <section class="sidebar">
+<section class="sidebar-interior">
+<div class="sponsors">
+	<h4>Corporate Sponsors</h4>
+	
+	<div class="platinum">
+		<h5>Platinum</h5>
+		<ul>
+			<li><a href=""><img src="../../theme/img/sponsors/JPM-logo.png" alt="JP Morgan"/></a></li>
+			<li><a href=""><img src="../../theme/img/sponsors/microsoft-logo.png" alt="Microsoft"/></a></li>
+		</ul>
+	</div>
+	<div class="gold">
+		<h5>Gold</h5>
+		<ul>
+			<li><a href=""><img src="../../theme/img/sponsors/continuum-logo.png" alt="Continuum"/></a></li>
+		</ul>
+	</div>
+</div> 
+</section> 
+      </section>
+    </section>
+  </section> 
+<section class="footer clear">
+	<section class="container">
+		<ul class="footer-nav clear">
+			<li><a href="../../projects/">Projects</a>
+				<ul>
+					<li><a href="../../projects/#core-projects">Core Projects</a></li>
+					<li><a href="../../projects/#other-projects">Other Projects</a></li>
+					<li><a href="../../projects/#associated-projects">Associated Projects</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="../../foundation/">About NumFOCUS</a>
+				<ul>
+					<li><a href="../../foundation/board.html">Board</a></li>
+					<li><a href="../../foundation/records.html">Public Records</a></li>
+					<li><a href="../../media/docs/bylaws.pdf">Bylaws</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+		<div class="contact">
+			<h3>Contact NumFOCUS</h3>
+			<div>
+				<span>NumFOCUS</span>
+				<span>P.O. Box 90596</span>
+				<span>Austin, TX 78709</span>
+				<a href="mailto:info@numfocus.org">info@numfocus.org</a>
+			</div>
+		</div>
+<div class="mailing-list">
+	<div class="google-group">
+		<h3>Join the Mailing List</h3>
+		<a href="https://groups.google.com/forum/#!forum/numfocus">Sign Up Now</a>
+	</div>
+	<div class="social">
+		<a class="github" target="_blank" href="https://github.com/numfocus">GitHub</a>
+		<a class="twitter" target="_blank" href="https://twitter.com/numfocus">Twitter</a>
+		<a class="google" target="_blank" href="https://plus.google.com/communities/100008130850352595608">Google+</a>
+	</div>
+</div>	</section>
+</section>
+  </body>
+</html>

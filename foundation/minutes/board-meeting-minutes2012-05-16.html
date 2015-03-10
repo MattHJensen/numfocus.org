@@ -1,0 +1,267 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+<title>NumFOCUS Foundation - </title>
+<meta charset="utf-8" />
+
+<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+<!-- fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="../../theme/css/style.css" />
+<link rel="shortcut icon" href="../../theme/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../../theme/img/favicon.ico" type="image/x-icon">
+ 
+<script type="text/javascript">
+	$(function() {
+    
+    //this is a subpage (catches top level menu items)
+    if(location.pathname.split("/")[1]!='') {
+      pagePath=location.pathname.split("/")[1];
+      $('.nav > li > a[href^="/'+pagePath+'"]').parent('li').addClass('active');
+    }
+
+    ////this is a secondary subpage (catches second level menu items)
+    if(location.pathname.split("/")[2]!='') {
+      pagePath=location.pathname.split("/")[2];
+      $('li > ul  li > a[href*="'+pagePath+'"]').parent('li').addClass('active');
+    }
+
+	});
+</script>
+  </head>
+  <body>
+<header class="downstream">
+	<section class="container nopad">
+		<a href="/" class="header_logo">
+			<img src="/theme/img/numfocus_logo.png" alt="NumFOCUS"/>
+		</a>
+		<div class="buttons">
+		<btn>
+				<a href="/take-action/join.html" class="btn grey">Join</a>
+			</btn>
+			<btn>
+				<a href="/take-action/donate.html" class="btn yellow">Donate</a>
+			</btn>
+		</div>
+		<ul class="nav">
+			<li><a href="/take-action/index.html">Take Action</a>
+				<ul>
+					<div>
+						<li><a href="/take-action/join.html">Join NumFOCUS</a></li>
+						<li><a href="/take-action/donate.html">Donate</a></li>
+						<li><a href="/take-action/sponsorship.html">Sponsor</a></li>
+						<li><a href="/take-action/mailing-list.html">Mailing List</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/foundation/index.html">Foundation</a>
+				<ul>
+					<div>
+						<li><a href="/foundation/staff.html">Staff</a></li>
+						<li><a href="/foundation/board.html">Board</a></li>
+						<li><a href="/foundation/vice_presidents.html">Vice Presidents</a></li>
+						<li><a href="/foundation/advisers.html">Advisers</a></li>
+                        <li><a href="/foundation/records.html">Records</a></li>
+						<li><a href="/foundation/minutes/">Minutes</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/projects/index.html">Projects</a>
+				<ul>
+					<div>
+						<li><a href="/projects/contribute.html">Contribute</a></li>
+						<li><a href="/projects/apply-for-grant.html">Apply for a grant</a></li>
+						<li><a href="/projects/join-as-project.html">Join as a project</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/programs/index.html">Programs</a>
+				<ul>
+					<div>
+						<li><a href="/programs/conferences.html">Conferences</a></li>
+						<li><a href="/programs/fellowships.html">Fellowships</a></li>
+						<li><a href="/programs/women-in-technology.html">Women in Technology</a></li>
+						<li><a href="/programs/gsoc.html">GSOC</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/news/index.html">News</a>
+				<ul>
+					<div>
+						<li><a href="/news/categories/news.html">News</a></li>
+						<li><a href="/news/categories/user-stories.html">User Stories</a></li>
+						<li><a href="/news/archives.html">Archives</a></li>
+					</div>
+				</ul>
+			</li>
+		</ul>
+	</section>
+</header>  <section class="content">
+    <section class="container">
+      <section class="primary">
+    <h1>Minutes - May 16,&nbsp;2012</h1>
+    
+
+    <section class="span8">
+    	<section>
+		    <div class="section" id="attendance">
+<h2>Attendance</h2>
+<p><strong>Participating</strong>:
+Leah Holdridge, Anthony Scopatz, Travis Oliphant, Fernando Perez, Jarrod
+Millman, John Hunter, Stefan van der&nbsp;Walt.</p>
+<p><strong>Not Attending</strong>:
+Perry&nbsp;Greenfield</p>
+</div>
+<div class="section" id="meeting-frequency">
+<h2>Meeting&nbsp;frequency</h2>
+<p>Proposal to meet every other week, at least for the initial setup phase of
+numfocus. Hopefully once things are working smoothly, frequency can decrease.
+This proposal was agreed upon, for now.  We’ll revisit to reduce as soon as&nbsp;feasible.</p>
+</div>
+<div class="section" id="new-members">
+<h2>New&nbsp;members</h2>
+<p>Travis asks how to engage others: include more people in the&nbsp;board?</p>
+</div>
+<div class="section" id="mailing-list">
+<h2>Mailing&nbsp;list</h2>
+<p>We will continue using the public NumFOCUS group for public discussion:
+<a class="reference external" href="http://groups.google.com/group/numfocus/about">http://groups.google.com/group/numfocus/about</a>.  This is publicly accessible and
+archived, anyone can&nbsp;join.</p>
+<p>We continue to have trouble with Leah’s and Anthony’s posts not reaching the
+group. Jarrod changed the membership list to use actual email addresses instead
+of numfocus addresses (e.g., <a class="reference external" href="mailto:admin&#64;numfocus.org">admin&#64;numfocus.org</a>).</p>
+</div>
+<div class="section" id="news">
+<h2>News</h2>
+<p>Other projects? PyAMG, (Jacob Schroder) AstroPy (Erik&nbsp;Tollerud)?</p>
+<p>Fernando will send <span class="caps">SFC</span> application so we can use it as an example and make an
+explicit sponsorship offer to these projects as well as request they&nbsp;fill</p>
+</div>
+<div class="section" id="irs-status">
+<h2><span class="caps">IRS</span>&nbsp;Status</h2>
+<p>Leah explained that we can be tax umbrella for projects without taking their
+donations ourselves.  Also, that the <span class="caps">IRS</span> 501c3 status doesn’t look as difficult
+to obtain as we thought, the <span class="caps">IRS</span> contact has been&nbsp;supportive.</p>
+<p>Plan is to submit application this month, if&nbsp;possible.</p>
+</div>
+<div class="section" id="scipy-euroscipy-sponsorship">
+<h2>SciPy/EuroSciPy&nbsp;sponsorship</h2>
+<p>Approved, earmarked towards the “community scholarship” item. We will offer the
+cost of two domestic scholarships, which we estimate to be roughly&nbsp;$1200.</p>
+<p>For EuroSciPy, we approve sponsorship at the silver level, which is 1000 euros&nbsp;($1275).</p>
+</div>
+<div class="section" id="pdf-presentation">
+<h2><span class="caps">PDF</span>&nbsp;presentation</h2>
+<p>Feedback was given to Leah on this.  John will send some updated figures,
+Fernando will send some text&nbsp;corrections.</p>
+</div>
+<div class="section" id="prospective-donors-fundraising">
+<h2>Prospective donors <span class="amp">&amp;</span>&nbsp;fundraising</h2>
+<p>A spreadsheet will be started with information about potential donors, contact
+persons,&nbsp;etc.</p>
+</div>
+<div class="section" id="hardware-and-cloud-time-donations">
+<h2>Hardware and cloud time&nbsp;donations</h2>
+<p>Contact hardware vendors as well as the various cloud providers to try to get
+time donations as well as hardware to be donated to projects and developers
+(especially&nbsp;laptops).</p>
+<p>A special <span class="caps">PDF</span> presentation will be created to send to potential Hardware and
+cloud&nbsp;donors.</p>
+</div>
+<div class="section" id="discussion-channels">
+<h2>Discussion&nbsp;channels</h2>
+<p>All tax-sensitive discussions will happen on the private admin mailing list,
+but we’ll try to do as much as we can on the public google group from now&nbsp;on.</p>
+</div>
+<div class="section" id="friends-of-numfocus">
+<h2>Friends of&nbsp;NumFOCUS</h2>
+<p>In a discussion about including <span class="caps">D.E.</span> Shaw on the “Friends of NumFOCUS” page it
+was decided to create “levels” of funding for inclusion on such a page.  $5000
+donation was suggested as a minimum amount for a company to be included.
+The idea of creating a “Success Stories” page was suggested so that companies
+could promote their use of the NumFOCUS&nbsp;projects.</p>
+</div>
+
+		</section>
+	</section>
+
+      </section>
+      <section class="sidebar">
+<section class="sidebar-interior">
+<div class="sponsors">
+	<h4>Corporate Sponsors</h4>
+	
+	<div class="platinum">
+		<h5>Platinum</h5>
+		<ul>
+			<li><a href=""><img src="../../theme/img/sponsors/JPM-logo.png" alt="JP Morgan"/></a></li>
+			<li><a href=""><img src="../../theme/img/sponsors/microsoft-logo.png" alt="Microsoft"/></a></li>
+		</ul>
+	</div>
+	<div class="gold">
+		<h5>Gold</h5>
+		<ul>
+			<li><a href=""><img src="../../theme/img/sponsors/continuum-logo.png" alt="Continuum"/></a></li>
+		</ul>
+	</div>
+</div> 
+</section> 
+      </section>
+    </section>
+  </section> 
+<section class="footer clear">
+	<section class="container">
+		<ul class="footer-nav clear">
+			<li><a href="../../projects/">Projects</a>
+				<ul>
+					<li><a href="../../projects/#core-projects">Core Projects</a></li>
+					<li><a href="../../projects/#other-projects">Other Projects</a></li>
+					<li><a href="../../projects/#associated-projects">Associated Projects</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="../../foundation/">About NumFOCUS</a>
+				<ul>
+					<li><a href="../../foundation/board.html">Board</a></li>
+					<li><a href="../../foundation/records.html">Public Records</a></li>
+					<li><a href="../../media/docs/bylaws.pdf">Bylaws</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+		<div class="contact">
+			<h3>Contact NumFOCUS</h3>
+			<div>
+				<span>NumFOCUS</span>
+				<span>P.O. Box 90596</span>
+				<span>Austin, TX 78709</span>
+				<a href="mailto:info@numfocus.org">info@numfocus.org</a>
+			</div>
+		</div>
+<div class="mailing-list">
+	<div class="google-group">
+		<h3>Join the Mailing List</h3>
+		<a href="https://groups.google.com/forum/#!forum/numfocus">Sign Up Now</a>
+	</div>
+	<div class="social">
+		<a class="github" target="_blank" href="https://github.com/numfocus">GitHub</a>
+		<a class="twitter" target="_blank" href="https://twitter.com/numfocus">Twitter</a>
+		<a class="google" target="_blank" href="https://plus.google.com/communities/100008130850352595608">Google+</a>
+	</div>
+</div>	</section>
+</section>
+  </body>
+</html>

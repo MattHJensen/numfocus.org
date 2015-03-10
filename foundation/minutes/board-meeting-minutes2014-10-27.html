@@ -1,0 +1,309 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+<title>NumFOCUS Foundation - </title>
+<meta charset="utf-8" />
+
+<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+<!-- fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800|Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="../../theme/css/style.css" />
+<link rel="shortcut icon" href="../../theme/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../../theme/img/favicon.ico" type="image/x-icon">
+ 
+<script type="text/javascript">
+	$(function() {
+    
+    //this is a subpage (catches top level menu items)
+    if(location.pathname.split("/")[1]!='') {
+      pagePath=location.pathname.split("/")[1];
+      $('.nav > li > a[href^="/'+pagePath+'"]').parent('li').addClass('active');
+    }
+
+    ////this is a secondary subpage (catches second level menu items)
+    if(location.pathname.split("/")[2]!='') {
+      pagePath=location.pathname.split("/")[2];
+      $('li > ul  li > a[href*="'+pagePath+'"]').parent('li').addClass('active');
+    }
+
+	});
+</script>
+  </head>
+  <body>
+<header class="downstream">
+	<section class="container nopad">
+		<a href="/" class="header_logo">
+			<img src="/theme/img/numfocus_logo.png" alt="NumFOCUS"/>
+		</a>
+		<div class="buttons">
+		<btn>
+				<a href="/take-action/join.html" class="btn grey">Join</a>
+			</btn>
+			<btn>
+				<a href="/take-action/donate.html" class="btn yellow">Donate</a>
+			</btn>
+		</div>
+		<ul class="nav">
+			<li><a href="/take-action/index.html">Take Action</a>
+				<ul>
+					<div>
+						<li><a href="/take-action/join.html">Join NumFOCUS</a></li>
+						<li><a href="/take-action/donate.html">Donate</a></li>
+						<li><a href="/take-action/sponsorship.html">Sponsor</a></li>
+						<li><a href="/take-action/mailing-list.html">Mailing List</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/foundation/index.html">Foundation</a>
+				<ul>
+					<div>
+						<li><a href="/foundation/staff.html">Staff</a></li>
+						<li><a href="/foundation/board.html">Board</a></li>
+						<li><a href="/foundation/vice_presidents.html">Vice Presidents</a></li>
+						<li><a href="/foundation/advisers.html">Advisers</a></li>
+                        <li><a href="/foundation/records.html">Records</a></li>
+						<li><a href="/foundation/minutes/">Minutes</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/projects/index.html">Projects</a>
+				<ul>
+					<div>
+						<li><a href="/projects/contribute.html">Contribute</a></li>
+						<li><a href="/projects/apply-for-grant.html">Apply for a grant</a></li>
+						<li><a href="/projects/join-as-project.html">Join as a project</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/programs/index.html">Programs</a>
+				<ul>
+					<div>
+						<li><a href="/programs/conferences.html">Conferences</a></li>
+						<li><a href="/programs/fellowships.html">Fellowships</a></li>
+						<li><a href="/programs/women-in-technology.html">Women in Technology</a></li>
+						<li><a href="/programs/gsoc.html">GSOC</a></li>
+					</div>
+				</ul>
+			</li>
+			<li><a href="/news/index.html">News</a>
+				<ul>
+					<div>
+						<li><a href="/news/categories/news.html">News</a></li>
+						<li><a href="/news/categories/user-stories.html">User Stories</a></li>
+						<li><a href="/news/archives.html">Archives</a></li>
+					</div>
+				</ul>
+			</li>
+		</ul>
+	</section>
+</header>  <section class="content">
+    <section class="container">
+      <section class="primary">
+    <h1>Minutes - October 27,&nbsp;2014</h1>
+    
+
+    <section class="span8">
+    	<section>
+		    <div class="section" id="attendance">
+<h2>Attendance</h2>
+<p><strong>Participating</strong>:
+Cindee Madison, Leah Silen, Perry Greenfield, Jarrod Millman, Didrik&nbsp;Pinte</p>
+<p><strong>Not Attending</strong>:
+Andy Terrel, Brian Granger, Lorena Barba, Ralf&nbsp;Gommers</p>
+</div>
+<div class="section" id="approval-of-minutes-from-last-meeting">
+<h2>Approval of Minutes from Last&nbsp;Meeting</h2>
+<p>unanimously&nbsp;approved</p>
+</div>
+<div class="section" id="treasurer-s-report">
+<h2>Treasurer&#8217;s&nbsp;Report</h2>
+<p>no&nbsp;update</p>
+<div class="section" id="old-business">
+<h3>Old&nbsp;Business</h3>
+<div class="section" id="mingw-w64-proposal">
+<h4>MinGW-w64&nbsp;proposal</h4>
+<p>Approval of mingw-w64 proposal by Carl Kleffner.  Response suggested it was
+possibly out of scope (email: sept 30), follow up with email or Andy?
+Proposal was above our ability to&nbsp;fund.</p>
+</div>
+<div class="section" id="vice-presidents">
+<h4>Vice&nbsp;Presidents</h4>
+<p>Two candidates approached.  Further discussion tabled until Andy arrives (was
+unable to make&nbsp;meeting).</p>
+</div>
+</div>
+<div class="section" id="new-business">
+<h3>New&nbsp;Business</h3>
+<div class="section" id="resignation-anthony-scopatz">
+<h4>Resignation Anthony&nbsp;Scopatz</h4>
+<ul class="simple">
+<li>Open board position as a result of Anthony’s&nbsp;resignation.</li>
+<li>Vice Presidents take on some&nbsp;responsibilities?</li>
+<li>Bookkeeper and Firm doing our&nbsp;taxes</li>
+<li>Oversee and make&nbsp;reports</li>
+<li>Get the ability to have high level view on funding each&nbsp;month</li>
+<li>Vote over candidates for open board position to be moved to email list
+(action&nbsp;Jarrod).</li>
+</ul>
+</div>
+<div class="section" id="financial-status">
+<h4>Financial&nbsp;status</h4>
+<p>Method for reporting our financial level/status at each board meeting&nbsp;discussed.</p>
+</div>
+<div class="section" id="new-fsas">
+<h4>New <span class="caps">FSA</span>’s</h4>
+<p>New <span class="caps">FSA</span>&#8217;s: Software Carpentry (signed), matplotlib (reviewing <span class="caps">FSA</span>):</p>
+<ul class="simple">
+<li>Change on website (open pull request) to update our new&nbsp;relationships</li>
+<li>Matplotlib is reviewing (been &#64;&nbsp;week)</li>
+<li>Spyder also&nbsp;interested</li>
+<li>Jarrod: surprised by <span class="caps">SWC</span> <span class="caps">FSA</span>, where has this been discussed, open question
+about our process?<ul>
+<li>First outreach via DataCarpentry. Greg Wilson to board members about
+relationship with Mozilla switch to NumFOCUS, Only a few board members were
+primary contacts, and there is concern that this “fell through the cracks”
+in terms of communication with the board. We are all excited about <span class="caps">SWC</span>,
+(postmortem: need better clarity with board) Can we get a summary of the
+context of this relationship to help clarity for the board? Future
+discussion when more board members at meeting. <span class="caps">FSA</span> in future should require
+board approval? Add to bylaws. (This is all about process not the&nbsp;relationship)</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="women-in-technology-update">
+<h4>Women In Technology&nbsp;update</h4>
+<p>Committee: Primary Goals outlined by&nbsp;Committee:</p>
+<ul class="simple">
+<li>Mentorship/outreach to improve representation of at conferences (both attending and&nbsp;speaking)</li>
+<li>Linkedin group (mentorship and to help with hiring).  Separate <span class="caps">DB</span> for linking mentors to&nbsp;mentees.</li>
+<li>Connecting Academic Departments to open source tools:<ul>
+<li>Not specific to <span class="caps">WIT</span></li>
+<li>Envision working with <span class="caps">SWC</span> for <span class="caps">WISE</span>/<span class="caps">WIT</span>&nbsp;events</li>
+</ul>
+</li>
+</ul>
+<p>Cloud computing resource for <span class="caps">WIT</span> Tutorial/coding&nbsp;events:</p>
+<ul class="simple">
+<li>Could we make a proposal to use Microsoft Azure for an online Wakari
+interface for teaching at some of the <span class="caps">WIT</span> outreach&nbsp;courses?</li>
+<li><span class="caps">AWS</span> ? Cloud computing for&nbsp;Berkeley?</li>
+<li>Rackspace (they have donated some to NumFOCUS via Pydata, and never used)?
+(They have shown significant investment in&nbsp;NumFOCUS)</li>
+</ul>
+<p>Diversity Scholarships&#8230; important to continue&nbsp;this.</p>
+</div>
+<div class="section" id="fundraising-campaign">
+<h4>Fundraising&nbsp;campaign</h4>
+<p>Leah talked to Travis about trying to get more money ….end of the year
+donations, and good time of year for outreach.  E.g. “We are looking for 150
+people to give&nbsp;$50”.</p>
+<p>Start some kind of campaign to get the word out, and get people used to seeing
+some fundraising activity by NumFOCUS. Important to keep money coming in,
+usually we can get the money but we need to start some kind of process around
+regular fund raising, even if just for visibility across our&nbsp;community.</p>
+<p>Endpoints help, where money goes helps in terms of&nbsp;fundraising:</p>
+<ul class="simple">
+<li>Can we earmark&nbsp;donations?</li>
+<li>Easy to make buttons on paypay (50,&nbsp;100)</li>
+<li>All scipy conferences had&nbsp;scholarships,</li>
+<li>Scikit-learn sprint&nbsp;help.</li>
+</ul>
+<p>Have a chart of how money has been spent.  Raise money for a sprint for a core
+project, and have projects apply?  Examples of how $5000 would be&nbsp;used&#8230;</p>
+<p>Before next board meeting: Cindee and Leah to send email about fundraising.
+Matching funds? Corporate ideas (ideas from Leah?) List of <span class="caps">WIT</span> uses for funding
+(paragraph to few sentences).  Bring before the board for a&nbsp;vote.</p>
+</div>
+<div class="section" id="year-end-report">
+<h4>Year-end&nbsp;report</h4>
+<p>Move toward having a year end report. Get quotes from people who have been
+funded, and some pictures for website. John Hunter Scholarship? Olga (short
+sentence or&nbsp;paragraph).</p>
+</div>
+</div>
+</div>
+
+		</section>
+	</section>
+
+      </section>
+      <section class="sidebar">
+<section class="sidebar-interior">
+<div class="sponsors">
+	<h4>Corporate Sponsors</h4>
+	
+	<div class="platinum">
+		<h5>Platinum</h5>
+		<ul>
+			<li><a href=""><img src="../../theme/img/sponsors/JPM-logo.png" alt="JP Morgan"/></a></li>
+			<li><a href=""><img src="../../theme/img/sponsors/microsoft-logo.png" alt="Microsoft"/></a></li>
+		</ul>
+	</div>
+	<div class="gold">
+		<h5>Gold</h5>
+		<ul>
+			<li><a href=""><img src="../../theme/img/sponsors/continuum-logo.png" alt="Continuum"/></a></li>
+		</ul>
+	</div>
+</div> 
+</section> 
+      </section>
+    </section>
+  </section> 
+<section class="footer clear">
+	<section class="container">
+		<ul class="footer-nav clear">
+			<li><a href="../../projects/">Projects</a>
+				<ul>
+					<li><a href="../../projects/#core-projects">Core Projects</a></li>
+					<li><a href="../../projects/#other-projects">Other Projects</a></li>
+					<li><a href="../../projects/#associated-projects">Associated Projects</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="../../foundation/">About NumFOCUS</a>
+				<ul>
+					<li><a href="../../foundation/board.html">Board</a></li>
+					<li><a href="../../foundation/records.html">Public Records</a></li>
+					<li><a href="../../media/docs/bylaws.pdf">Bylaws</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+		<div class="contact">
+			<h3>Contact NumFOCUS</h3>
+			<div>
+				<span>NumFOCUS</span>
+				<span>P.O. Box 90596</span>
+				<span>Austin, TX 78709</span>
+				<a href="mailto:info@numfocus.org">info@numfocus.org</a>
+			</div>
+		</div>
+<div class="mailing-list">
+	<div class="google-group">
+		<h3>Join the Mailing List</h3>
+		<a href="https://groups.google.com/forum/#!forum/numfocus">Sign Up Now</a>
+	</div>
+	<div class="social">
+		<a class="github" target="_blank" href="https://github.com/numfocus">GitHub</a>
+		<a class="twitter" target="_blank" href="https://twitter.com/numfocus">Twitter</a>
+		<a class="google" target="_blank" href="https://plus.google.com/communities/100008130850352595608">Google+</a>
+	</div>
+</div>	</section>
+</section>
+  </body>
+</html>
