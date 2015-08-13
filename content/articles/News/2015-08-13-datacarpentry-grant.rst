@@ -1,5 +1,5 @@
 ========================================================
-NumFOCUS Supported Project Data Carpentry Receives Grant
+NumFOCUS Sponsored Project Data Carpentry Receives Grant
 ========================================================
 :date: 2015-08-13
 :author: Gina Helfrich
