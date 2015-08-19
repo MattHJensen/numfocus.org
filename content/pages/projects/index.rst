@@ -48,12 +48,11 @@ The Astropy Project is a community effort to develop a single core package for A
 Data Carpentry, a sister organization to Software Carpentry, aims to teach basic concepts, skills and tools for working more effectively with data. We are a community that develops lessons and runs workshops to teach researchers the skills to organize, manage and analyze data in a more efficient and reproducible way.
 
 
-`IPython`_
---------------
-.. image:: /media/img/projects/ipython.png
+`IPython`_ 
+------------
+.. image:: /media/img/projects/IPy_header.png
     :alt: IPython logo
-    :height: 65px
-
+    :height: 50px
 
 .. raw:: html
 
@@ -66,9 +65,41 @@ Data Carpentry, a sister organization to Software Carpentry, aims to teach basic
    </form>
    </div>
 
+IPython is the historical parent of Jupyter Notebook and continues to
+exist as the reference Python kernel for the Jupyter Notebook. IPython
+also includes a parallel computing framework (ipyparallel),
+interactive widgets for the Jupyter Notebook (ipywidgets) and base
+utilities for building reactive applications in Python (traitlets).
 
-High quality open source Python shell that includes tools for high level and
-interactive parallel computing.
+and `Project Jupyter`_
+----------------------
+
+.. image:: /media/img/projects/jupyter_logo.png
+    :alt: IPython logo
+    :height: 55px    
+
+.. raw:: html
+
+   <div style="float:right">
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+   <input type="hidden" name="cmd" value="_s-xclick">
+   <input type="hidden" name="hosted_button_id" value="SMCAHLP2ST42G">
+   <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+   <img alt="." border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+   </form>
+   </div>
+
+Project Jupyter is an open source project that offers a set of tools
+for interactive and exploratory computing. These tools support
+reproducible and collaborative scientific computing and data science
+across a wide range of programming languages (Python, Julia, R, etc.).
+The main application offered by Project Jupyter is the Jupyter
+Notebook, a web-based interactive computing platform that allows users
+to author computational narratives that combine live code, equations,
+narrative text, interactive user interfaces and other rich media.
+These documents provide a complete record of a computation that can be
+converted to a number of formats (HTML, PDF, etc.) and shared with
+others through email, Dropbox, GitHub and the Jupyter Notebook Viewer.
 
 `Julia`_
 --------
@@ -384,6 +415,7 @@ entice each other and the world.  `https://inscightpodcast.wordpress.com/`_
 .. _Python(X,Y): http://code.google.com/p/pythonxy/wiki/Welcome
 .. _yt: http://yt-project.org/
 .. _julia: http://julialang.org/
+.. _Project Jupyter: https://jupyter.org/
 
 .. _distributed parallel execution: http://docs.julialang.org/en/release-0.3/manual/parallel-computing/
 .. _extensive mathematical function library: http://docs.julialang.org/en/release-0.3/stdlib/
@@ -396,3 +428,5 @@ entice each other and the world.  `https://inscightpodcast.wordpress.com/`_
 .. _multiple dispatch: http://docs.julialang.org/en/release-0.3/manual/methods/#man-methods
 .. _introduction: http://docs.julialang.org/en/release-0.3/manual/introduction/
 .. _online manual: http://docs.julialang.org/en/release-0.3/
+
+
