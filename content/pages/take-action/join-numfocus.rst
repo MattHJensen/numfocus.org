@@ -348,15 +348,19 @@ Pascal Schetelat
 
 Stefan Schwarzburg
 
+Reshama Shaikh
+
 Jennifer Shelton
 
 Akira Shibata
+
+Charles Simpson
 
 Saravanan Sivaswamy
 
 Rachel Slaybaugh
 
-B. Eugene Smith
+B Eugene Smith
 
 Jonathan A. Smith
 
@@ -375,6 +379,8 @@ Marc-Olivier Titeux
 Mathew Topper
 
 Sam Triolo
+
+Matthew Turner
 
 Vicky Twomey-Lee
 

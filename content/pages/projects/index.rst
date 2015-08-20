@@ -71,36 +71,6 @@ also includes a parallel computing framework (ipyparallel),
 interactive widgets for the Jupyter Notebook (ipywidgets) and base
 utilities for building reactive applications in Python (traitlets).
 
-and `Project Jupyter`_
-----------------------
-
-.. image:: /media/img/projects/jupyter_logo.png
-    :alt: IPython logo
-    :height: 55px    
-
-.. raw:: html
-
-   <div style="float:right">
-   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-   <input type="hidden" name="cmd" value="_s-xclick">
-   <input type="hidden" name="hosted_button_id" value="SMCAHLP2ST42G">
-   <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-   <img alt="." border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-   </form>
-   </div>
-
-Project Jupyter is an open source project that offers a set of tools
-for interactive and exploratory computing. These tools support
-reproducible and collaborative scientific computing and data science
-across a wide range of programming languages (Python, Julia, R, etc.).
-The main application offered by Project Jupyter is the Jupyter
-Notebook, a web-based interactive computing platform that allows users
-to author computational narratives that combine live code, equations,
-narrative text, interactive user interfaces and other rich media.
-These documents provide a complete record of a computation that can be
-converted to a number of formats (HTML, PDF, etc.) and shared with
-others through email, Dropbox, GitHub and the Jupyter Notebook Viewer.
-
 `Julia`_
 --------
 .. image:: /media/img/projects/julia_logo.png
@@ -144,6 +114,36 @@ Julia programs are organized around `multiple dispatch`_; by defining functions 
 used in various hardcopy and interactive environments.  Matplolib is
 compatible with Python scripts and the Python and IPython shells, web
 application servers, and six graphical user interface toolkits.
+
+`Project Jupyter`_
+----------------------
+
+.. image:: /media/img/projects/jupyter_logo.png
+    :alt: IPython logo
+    :height: 55px    
+
+.. raw:: html
+
+   <div style="float:right">
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+   <input type="hidden" name="cmd" value="_s-xclick">
+   <input type="hidden" name="hosted_button_id" value="SMCAHLP2ST42G">
+   <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+   <img alt="." border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+   </form>
+   </div>
+
+Project Jupyter is an open source project that offers a set of tools
+for interactive and exploratory computing. These tools support
+reproducible and collaborative scientific computing and data science
+across a wide range of programming languages (Python, Julia, R, etc.).
+The main application offered by Project Jupyter is the Jupyter
+Notebook, a web-based interactive computing platform that allows users
+to author computational narratives that combine live code, equations,
+narrative text, interactive user interfaces and other rich media.
+These documents provide a complete record of a computation that can be
+converted to a number of formats (HTML, PDF, etc.) and shared with
+others through email, Dropbox, GitHub and the Jupyter Notebook Viewer.
 
 
 `rOpenSci`_
