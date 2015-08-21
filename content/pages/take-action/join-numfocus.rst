@@ -310,6 +310,8 @@ Ramabhadra Penmetsa
 
 Jacob Perkins
 
+Jean-Baptiste Poline
+
 Robert Pröpper
 
 David Pugh
@@ -319,6 +321,8 @@ Rajit
 Karthik Marudhachalam Ramasamy
 
 Gunnar Rätsch
+
+Ravi Kumar Reddy
 
 Srinivasa Reddy Kunduru
 
