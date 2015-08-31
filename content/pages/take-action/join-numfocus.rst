@@ -96,6 +96,8 @@ Toby Balfre
 
 Sean Barberie
 
+Arin Basu
+
 Angus Bayley
 
 J Beecher-Deighan
@@ -141,6 +143,8 @@ Andrew Christianson
 Katherine Chuang
 
 Crockett Cobb
+
+Robert Cohn
 
 Andrew Collette
 
@@ -421,6 +425,8 @@ Dan Xu
 Eric Xu
 
 Kai Yang
+
+Lars Yencken
 
 Mahdi Ozbak Zaei
 
