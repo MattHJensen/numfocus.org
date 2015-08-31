@@ -146,6 +146,32 @@ converted to a number of formats (HTML, PDF, etc.) and shared with
 others through email, Dropbox, GitHub and the Jupyter Notebook Viewer.
 
 
+
+`PyTables`_
+---------------
+.. image:: /media/img/projects/logo-pytables-small.png
+    :alt: PyTables logo
+    :height: 65px
+
+.. raw:: html
+
+   <div style="float:right">
+   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+   <input type="hidden" name="cmd" value="_s-xclick">
+   <input type="hidden" name="hosted_button_id" value="8DMYL28L52C3L">
+   <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+   </form>
+   </div>
+
+PyTables is a package for managing hierarchical datasets and designed to
+efficiently and easily cope with extremely large amounts of data. PyTables is
+built on top of the HDF5 library, using the Python language and the NumPy
+package. It features a Pythonic interface combined with C / Cython extensions
+for the performance-critical parts of the code.  This makes it a fast, yet
+extremely easy to use tool for very large amounts of data.
+http://pytables.github.com/
+
+
 `rOpenSci`_
 ------------
 .. image:: /media/img/projects/ropensci_logo.png
@@ -261,21 +287,6 @@ makes writing C extensions for Python as easy as Python itself.
 pandas is an open source, BSD-licensed library providing high-performance,
 easy-to-use data structures and data analysis tools for the Python programming
 language.
-
-
-`PyTables`_
----------------
-.. image:: /media/img/projects/logo-pytables-small.png
-    :alt: PyTables logo
-    :height: 65px
-
-PyTables is a package for managing hierarchical datasets and designed to
-efficiently and easily cope with extremely large amounts of data. PyTables is
-built on top of the HDF5 library, using the Python language and the NumPy
-package. It features a Pythonic interface combined with C / Cython extensions
-for the performance-critical parts of the code.  This makes it a fast, yet
-extremely easy to use tool for very large amounts of data.
-http://pytables.github.com/
 
 
 `Python(X,Y)`_
