@@ -164,6 +164,8 @@ Steve Dower
 
 Martin Durant
 
+Douglas Eadline
+
 Bence Faludi
 
 Sameera Fernando
@@ -431,6 +433,8 @@ Lars Yencken
 Mahdi Ozbak Zaei
 
 Peter Zahuczki
+
+Ali Zaidi
 
 Esteban Zapata
 
