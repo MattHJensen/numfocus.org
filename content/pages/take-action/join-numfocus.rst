@@ -342,6 +342,8 @@ Sergio Rivera
 
 Cesar B. Rocha
 
+Jakeb Rosoman
+
 Amir Sadoughi
 
 Wouter Saelens
@@ -405,6 +407,8 @@ Nicholas Ursa
 Frans van Dunné
 
 Nelle Varoquaux
+
+S Vignesh
 
 Jens von der Linden
 
