@@ -383,10 +383,10 @@ computing community.  From embedded systems experts to very high level language
 gurus, from biologists to nuclear engineers, the hosts of inSCIght use
 computers to solve science and engineering problems everyday. This podcast
 throws people, ideas, and opinions into an audio-blender hoping to educate and
-entice each other and the world.  `https://inscightpodcast.wordpress.com/`_
+entice each other and the world.
 
 
-.. _`inSCIght`: http://inscight.org/
+.. _`inSCIght`: https://github.com/inscight/inscight
 .. _`https://inscightpodcast.wordpress.com/`: https://inscightpodcast.wordpress.com/
 
 
@@ -415,7 +415,8 @@ entice each other and the world.  `https://inscightpodcast.wordpress.com/`_
 .. _scikit-image: http://scikit-image.org/
 .. _scikit-learn: http://scikit-learn.org/stable/
 .. _Scikits-Statsmodels: http://scikits.appspot.com/statsmodels
-.. _Spyder: http://code.google.com/p/spyderlib/
+.. _Spyder: https://pythonhosted.org/spyder/
+.. _Statsmodels: http://statsmodels.sourceforge.net/
 .. _Theano: http://deeplearning.net/software/theano/#
 .. _rOpenSci: http://ropensci.org/
 
@@ -423,7 +424,7 @@ entice each other and the world.  `https://inscightpodcast.wordpress.com/`_
 
 .. _Sage: http://www.sagemath.org/
 .. _NetworkX: http://networkx.lanl.gov/
-.. _Python(X,Y): http://code.google.com/p/pythonxy/wiki/Welcome
+.. _Python(X,Y): http://python-xy.github.io/
 .. _yt: http://yt-project.org/
 .. _julia: http://julialang.org/
 .. _Project Jupyter: https://jupyter.org/
