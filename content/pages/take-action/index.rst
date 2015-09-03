@@ -3,7 +3,7 @@ Take Action
 :url: take-action/
 :save_as: take-action/index.html
 
-NumFOCUS has the mission of supporting open codes for the betterment of science. This goal requires **YOU**! Whether you write code or just want to support the cause there are numerous ways to get started.
+NumFOCUS has the mission of supporting open code for the betterment of science. This goal requires **YOU**! Whether you write code or just want to support the cause there are numerous ways to get started.
 
 Ways to Support NumFOCUS
 ---------------------------------------------
