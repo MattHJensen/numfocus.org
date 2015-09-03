@@ -24,7 +24,7 @@ Money donated through NumFOCUS goes to sponsor things like:
 -  Web-page hosting and bandwidth fees for projects
 
 NumFOCUS aims to ensure that money is available to keep projects in the
-scientific Python stack funded and available. So if you find value in
+scientific data stack funded and available. So if you find value in
 these tools and have always wanted to give back, donating to NumFOCUS
 gives you a way of supporting either a specific project of your choice
 or all of these great codes at once!
