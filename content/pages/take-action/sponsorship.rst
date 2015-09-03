@@ -26,7 +26,9 @@ What are the benefits for your corporation?
  
 Sponsor Levels
 --------------
- 
+Sponsorships are renewable on an annual basis. 
+
+
 Platinum $100,000
 ~~~~~~~~~~~~~~~~~~~
 *  Designation as a Platinum Sponsor with corporate logo placement on
@@ -41,6 +43,7 @@ Platinum $100,000
 *  Opportunity for a representative from one or more of NumFOCUS’ promoted
    projects to give a presentation at your corporate headquarters
 *  Recognition and benefits at PyData Conferences for one year
+*  Seat on the NumFOCUS Advisory Council
  
  
 Gold $50,000
@@ -55,6 +58,7 @@ Gold $50,000
 *  Opportunity for a representative from one of NumFOCUS’ promoted projects to
    give a presentation at your corporate headquarters
 *  Recognition at PyData Conferences
+*  Seat on the NumFOCUS Advisory Council
  
 Silver $25,000
 ~~~~~~~~~~~~~~~~
