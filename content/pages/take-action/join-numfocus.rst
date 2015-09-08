@@ -240,6 +240,8 @@ Sergii Konovalenko
 
 Matvei Kotov
 
+Mohamed Krar
+
 Margo Kulkarni
 
 Stefan Kupstaitis-Dunkler
@@ -359,6 +361,8 @@ Tadas Sasnauskas
 Ivan Savov
 
 Jeffrey Schafer
+
+Zachary Scheffler
 
 Pascal Schetelat
 
