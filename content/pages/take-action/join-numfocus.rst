@@ -86,6 +86,8 @@ Arnaldo Cristián Antuña
 
 Tim Arnold
 
+Nitin Arora
+
 Alex Arslan
 
 Sean Aubin
@@ -123,6 +125,8 @@ Francois Boulogne
 Carlos Brandt
 
 Hugo Brito Lima
+
+William Broderick
 
 Tyson Burghardt
 
@@ -162,6 +166,8 @@ Akash Dhruv
 
 Steve Dower
 
+Jasmine Dumas
+
 Martin Durant
 
 Douglas Eadline
@@ -192,11 +198,15 @@ Shubham Goyal
 
 Francisco Gracia
 
+Matthew Gratt
+
 Jason Grout
 
 Harsh Gupta
 
 Matt Hall
+
+Ethan Hart
 
 Megat Harun Al Rashid bin Megat Ahmad
 
@@ -287,6 +297,8 @@ Justin Mitchell
 Yosa D Miyasato
 
 Peter Morgan
+
+Clifford Mosley
 
 Sandeep Nair
 
