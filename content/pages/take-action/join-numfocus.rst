@@ -94,6 +94,8 @@ Sean Aubin
 
 Peter W Bachant
 
+Cenk Anıl Bahçevan
+
 Toby Balfre
 
 Sean Barberie
@@ -337,6 +339,8 @@ Ramabhadra Penmetsa
 Jacob Perkins
 
 Jean-Baptiste Poline
+
+James Powell
 
 Robert Pröpper
 
