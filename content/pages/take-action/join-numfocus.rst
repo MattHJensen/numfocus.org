@@ -142,6 +142,8 @@ Mauro Cavalcanti
 
 Abhishek Chakraborty
 
+Lionel Chiron
+
 Vincent Chow
 
 Andrew Christianson
@@ -335,6 +337,8 @@ Joel Parker
 Atanas Pavlov
 
 Ramabhadra Penmetsa
+
+Gabriel Perez
 
 Jacob Perkins
 
