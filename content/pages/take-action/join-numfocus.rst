@@ -234,6 +234,8 @@ Steve Jeffers
 
 Vikram Chandra Jha
 
+Keith Johansen
+
 Rohit Joshi
 
 Vishal Kalaskar
@@ -267,6 +269,8 @@ Chandrashekar kuyyamudi
 Jeremiah Lant
 
 Hilmar Lapp
+
+Philip Lawrence
 
 Robert Love
 
@@ -348,6 +352,8 @@ James Powell
 
 Robert Pröpper
 
+Scott Provost
+
 David Pugh
 
 Jose Quesada
@@ -409,6 +415,8 @@ Rachel Slaybaugh
 B Eugene Smith
 
 Jonathan A. Smith
+
+Paul-André Spiltoir
 
 Sukesh
 
