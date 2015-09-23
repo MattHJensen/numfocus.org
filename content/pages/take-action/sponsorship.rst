@@ -31,54 +31,40 @@ Sponsorships are renewable on an annual basis.
 
 Platinum $100,000
 ~~~~~~~~~~~~~~~~~~~
-*  Designation as a Platinum Sponsor with corporate logo placement on
-   NumFOCUS.org
-*  Profile on NumFOCUS.org and link to your site
-*  Preferential placement of listings on Sponsor’s Job Page
-*  Ability to post on the member’s mailing list
-*  Naming of a sponsored educational workshop series and logo used on all
-   promotion of series
-*  Use of the NumFOCUS Corporate Sponsor Badge on your website or marketing
-   collateral
-*  Opportunity for a representative from one or more of NumFOCUS’ promoted
-   projects to give a presentation at your corporate headquarters
-*  Recognition and benefits at PyData Conferences for one year
+*  Naming of a sponsored educational workshop series. Logo used on all promotional material and media channels
+*  Invitation to attend a project developer summit sponsor day
+*  Presentation at corporate headquarters, or to the team of your choice, by a NumFOCUS project core developer
 *  Seat on the NumFOCUS Advisory Council
+*  Sponsor benefits at two PyData events (`PyData Diamond Sponsor Level`_)
+*  Use of the NumFOCUS Corporate Sponsor Badge on your website
+*  Corporate logo placement and company profile on numfocus.org
  
  
 Gold $50,000
 ~~~~~~~~~~~~~~
-*  Designation as a Gold Sponsor with corporate logo placement in sponsor’s
-   section on NumFOCUS.org
-*  Profile on NumFOCUS.org and link to your site
-*  Opportunity to post job listings on the Sponsor’s Job Page
-*  Ability to post on the member’s mailing list
-*  Use of the NumFOCUS Corporate Sponsor Badge on your website or marketing
-   collateral
-*  Opportunity for a representative from one of NumFOCUS’ promoted projects to
-   give a presentation at your corporate headquarters
-*  Recognition at PyData Conferences
+*  Presentation at corporate headquarters, or to the team of your choice, by a NumFOCUS project core developer
 *  Seat on the NumFOCUS Advisory Council
+*  Sponsor benefits at two PyData events (`PyData Platinum Sponsor Level`_)
+*  Use of the NumFOCUS Corporate Sponsor Badge on your website
+*  Corporate logo placement and company profile on numfocus.org
  
 Silver $25,000
 ~~~~~~~~~~~~~~~~
-*  Designation as a Silver Sponsor with corporate logo placement in sponsor’s
-   section on NumFOCUS.org
-*  Profile on NumFOCUS.org and link to your site
-*  Opportunity to post job listings on the Sponsor’s Job Page
-*  Use of the NumFOCUS Corporate Sponsor Badge on your website or marketing
-   collateral
-*  Ability to post on the member’s mailing list
+*  Presentation at corporate headquarters, or to the team of your choice, by a NumFOCUS project core developer
+*  Sponsor benefits at a PyData event of your choice (`PyData Platinum Sponsor Level`_)
+*  Use of the NumFOCUS Corporate Sponsor Badge on your website
+*  Corporate logo placement and company profile on numfocus.org
  
 Bronze $10,000
 ~~~~~~~~~~~~~~
-*  Designation as a Bronze Sponsor with corporate logo placement in sponsor’s
-   section on NumFOCUS.org
-*  Profile on NumFOCUS.org and link to your site
-*  Opportunity to post job listings on the Sponsor’s Job Page
-*  Ability to post to the member’s mailing list
+*  Sponsor benefits at a PyData event of your choice (`PyData Platinum Sponsor Level`_)
+*  Use of the NumFOCUS Corporate Sponsor Badge on your website
+*  Corporate logo placement and company profile on numfocus.org
 
 Contact Us
 -----------
 
 For more information contact us at info@numfocus.org.
+
+.. _PyData Diamond Sponsor Level: http://pydata.org/sponsor/info/
+.. _PyData Platinum Sponsor Level: http://pydata.org/sponsor/info/
