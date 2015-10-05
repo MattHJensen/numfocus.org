@@ -120,6 +120,8 @@ Gerry Blais
 
 Bennie Blunt Jr
 
+Alberto Boschetti
+
 Olga Botvinnik
 
 Francois Boulogne
@@ -161,6 +163,8 @@ Sophia Collier
 Peadar Coyle
 
 Alain Cuvillier
+
+Robert Dahl Jacobsen
 
 George Dean
 
@@ -218,6 +222,8 @@ Nick Hawes
 
 Hillebrand 
 
+Johan Hjelm
+
 Edwin Hu
 
 Thien-Bach Huynh
@@ -245,6 +251,8 @@ Talha Karabiyik
 Matthew Kelcey
 
 Kyle Kelley
+
+Sam Kennerly
 
 David Ketcheson
 
@@ -275,6 +283,8 @@ Hilmar Lapp
 Philip Lawrence
 
 Robert Love
+
+Trung Le
 
 Kwangchun Lee Lee
 
@@ -350,6 +360,8 @@ Jacob Perkins
 
 Jean-Baptiste Poline
 
+Dharhas Pothina
+
 James Powell
 
 Robert Pröpper
@@ -420,6 +432,8 @@ Jonathan A. Smith
 
 Paul-André Spiltoir
 
+Moh Suhartono
+
 Sukesh
 
 Motoe X Suzuki
@@ -489,3 +503,5 @@ Li Zhenbo
 Andreas Zilly
 
 Michael Zingale
+
+en  zyme
