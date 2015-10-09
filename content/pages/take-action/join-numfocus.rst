@@ -94,6 +94,8 @@ Sean Aubin
 
 Peter W Bachant
 
+Feyzi Bagirov
+
 Cenk Anıl Bahçevan
 
 Toby Balfre
@@ -151,6 +153,8 @@ Vincent Chow
 Andrew Christianson
 
 Katherine Chuang
+
+Daniel Chudnov
 
 Crockett Cobb
 
@@ -221,6 +225,8 @@ Megat Harun Al Rashid bin Megat Ahmad
 Nick Hawes
 
 Hillebrand 
+
+David Hirschfeld
 
 Johan Hjelm
 
@@ -491,6 +497,8 @@ Eric Xu
 Kai Yang
 
 Lars Yencken
+
+Syu Jin Yuan
 
 Mahdi Ozbak Zaei
 

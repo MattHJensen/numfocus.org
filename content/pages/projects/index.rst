@@ -115,6 +115,27 @@ used in various hardcopy and interactive environments.  Matplolib is
 compatible with Python scripts and the Python and IPython shells, web
 application servers, and six graphical user interface toolkits.
 
+`pandas`_
+---------
+.. image:: /media/img/projects/pandas.png
+    :alt: pandas logo
+    :height: 65px
+
+.. raw:: html
+
+   <div style="float:right">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="CPTASMSFLQYS8">
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+   </div>
+
+pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language. 
+
+pandas enables users to carry out their entire data analysis workflow in Python without having to switch to a more domain-specific language like R. Combined with IPython (also a NumFOCUS fiscally sponsored project) and other libraries, the environment for doing data analysis in Python excels in performance, productivity, and the ability to collaborate. Python with pandas is in use in a wide variety of academic and commercial domains, including Finance, Neuroscience, Economics, Statistics, Advertising, Web Analytics, and more.
+
 `Project Jupyter`_
 ----------------------
 
@@ -278,17 +299,6 @@ language and the extended Cython programming language (based on Pyrex). It
 makes writing C extensions for Python as easy as Python itself.
 
 
-`pandas`_
--------------
-.. image:: /media/img/projects/pandas.png
-    :alt: Pandas logo
-    :height: 65px
-
-pandas is an open source, BSD-licensed library providing high-performance,
-easy-to-use data structures and data analysis tools for the Python programming
-language.
-
-
 `Python(X,Y)`_
 --------------
 .. image:: /media/img/projects/pythonxy.png
@@ -410,7 +420,6 @@ entice each other and the world.
 .. _`http://sourceforge.net/projects/numpy/files/NumPy/1.6.1/`: http://sourceforge.net/projects/numpy/files/NumPy/1.6.1/
 
 .. _Cython: http://cython.org/
-.. _pandas: http://pandas.pydata.org/
 .. _PyTables: http://pytables.github.com/
 .. _scikit-image: http://scikit-image.org/
 .. _scikit-learn: http://scikit-learn.org/stable/
@@ -440,5 +449,4 @@ entice each other and the world.
 .. _multiple dispatch: http://docs.julialang.org/en/release-0.3/manual/methods/#man-methods
 .. _introduction: http://docs.julialang.org/en/release-0.3/manual/introduction/
 .. _online manual: http://docs.julialang.org/en/release-0.3/
-
-
+.. _pandas: http://pandas.pydata.org/community.html
