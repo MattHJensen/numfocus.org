@@ -104,6 +104,8 @@ Sean Barberie
 
 Arin Basu
 
+Andrew Bauman
+
 Angus Bayley
 
 J Beecher-Deighan
@@ -329,6 +331,8 @@ Clifford Mosley
 Sandeep Nair
 
 Pariksheet Nanda
+
+Deepak Narayan Ramanath
 
 Francisco J. Navarro-Brull
 
