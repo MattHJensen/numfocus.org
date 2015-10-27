@@ -230,6 +230,8 @@ Nick Hawes
 
 Hillebrand 
 
+Konrad Hinsen
+
 David Hirschfeld
 
 Johan Hjelm
@@ -412,6 +414,8 @@ Oka Saputra
 
 Michael Sarahan
 
+Shrey Saraswat
+
 Tadas Sasnauskas
 
 Ivan Savov
@@ -421,6 +425,8 @@ Jeffrey Schafer
 Zachary Scheffler
 
 Pascal Schetelat
+
+Robert Schwarz
 
 Stefan Schwarzburg
 
