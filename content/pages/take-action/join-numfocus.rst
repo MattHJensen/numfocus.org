@@ -454,6 +454,8 @@ Jonathan A. Smith
 
 Paul-André Spiltoir
 
+Becky Steele
+
 Moh Suhartono
 
 Sukesh
@@ -461,6 +463,8 @@ Sukesh
 Motoe X Suzuki
 
 Rakshak Talwar
+
+Liling Tan
 
 Matthew Terry
 
