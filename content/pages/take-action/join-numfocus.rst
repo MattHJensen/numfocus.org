@@ -74,6 +74,8 @@ Full details on membership may be found in the amended `bylaws <|filename|/media
 
 **Thank you to everyone who has joined NumFOCUS as a 2015 Member!**
 
+Safia Abdalla
+
 Samantha Ahern
 
 Denis Akhiyarov
@@ -91,6 +93,8 @@ Nitin Arora
 Alex Arslan
 
 Sean Aubin
+
+Tom Augspurger
 
 Peter W Bachant
 
@@ -150,6 +154,8 @@ Mauro Cavalcanti
 
 Abhishek Chakraborty
 
+Ruitao Cheng
+
 Lionel Chiron
 
 Vincent Chow
@@ -178,7 +184,11 @@ George Dean
 
 Christoph Deil
 
+Tim Dennis
+
 Akash Dhruv
+
+Narahara Dingari
 
 Steve Dower
 
@@ -188,11 +198,15 @@ Martin Durant
 
 Douglas Eadline
 
+Andrew Ellis
+
 Bence Faludi
 
 Mohammadreza Farahani
 
 Sameera Fernando
+
+Robert Fieldhouse
 
 Clark Fitzgerald
 
@@ -240,6 +254,8 @@ David Hirschfeld
 
 Johan Hjelm
 
+William Holmgren
+
 Edwin Hu
 
 Thien-Bach Huynh
@@ -263,6 +279,8 @@ Rohit Joshi
 Vishal Kalaskar
 
 Talha Karabiyik
+
+Jeremy Karnowski
 
 Matthew Kelcey
 
@@ -315,6 +333,8 @@ M A
 A Macbee
 
 Brian Magill
+
+Gabriel de Maeztu Pontevia
 
 Raj Kumar Maurya
 
@@ -470,11 +490,15 @@ Rakshak Talwar
 
 Liling Tan
 
+Andy Terrel
+
 Matthew Terry
 
 Garrett O. Thomas
 
 Marc-Olivier Titeux
+
+Magdalena Tkacz
 
 Mathew Topper
 
