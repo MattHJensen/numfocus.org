@@ -74,9 +74,15 @@ Full details on membership may be found in the amended `bylaws <|filename|/media
 
 **Thank you to everyone who has joined NumFOCUS as a 2015 Member!**
 
+Cecilia Aas
+​
 Safia Abdalla
 
+Tara Adiseshan
+
 Samantha Ahern
+
+Ebrahim Ahmed
 
 Denis Akhiyarov
 
@@ -122,6 +128,10 @@ Sylvain Bellemare
 
 Matthew Bergkoetter
 
+Edmund Berry
+
+James Beveridge
+
 Praveen Bhamidipati
 
 Milap Bhojak
@@ -148,7 +158,11 @@ Jeff Byrne
 
 Grayson Calhoun
 
+Andrew Campbell
+
 Carlos Cardenas
+
+Ciro Cattuto
 
 Mauro Cavalcanti
 
@@ -200,6 +214,8 @@ Douglas Eadline
 
 Andrew Ellis
 
+Frank Espinoza Carreon
+
 Bence Faludi
 
 Mohammadreza Farahani
@@ -246,7 +262,9 @@ Megat Harun Al Rashid bin Megat Ahmad
 
 Nick Hawes
 
-Hillebrand 
+Frederick Heckel
+
+Hillebrand
 
 Konrad Hinsen
 
@@ -267,6 +285,8 @@ Paul Ivanov
 Satish Kumar Iyemperumal
 
 Kyoung Rok Jang
+
+Varun Jangidi
 
 Steve Jeffers
 
@@ -304,6 +324,8 @@ Matvei Kotov
 
 Mohamed Krar
 
+Roman Kubiak
+
 Margo Kulkarni
 
 Stefan Kupstaitis-Dunkler
@@ -332,17 +354,25 @@ M A
 
 A Macbee
 
-Brian Magill
-
 Gabriel de Maeztu Pontevia
 
+Brian Magill
+
+Alexander Maher
+
+Krista Martocci
+
 Raj Kumar Maurya
+
+Ryan May
 
 Matthew McCormick
 
 Damon McDougall
 
 Mark Meanwell
+
+Carlos Mendez
 
 Piotr Migdal
 
@@ -364,9 +394,9 @@ Deepak Narayan Ramanath
 
 Francisco J. Navarro-Brull
 
-Noemi 
+Noemi
 
-Dan O'Huiginn
+Dan O’Huiginn
 
 Bernard Ojengwa
 
@@ -409,6 +439,8 @@ Scott Provost
 David Pugh
 
 Jose Quesada
+
+Facundo Manuel Quiroga
 
 Rajit
 
@@ -460,11 +492,15 @@ Minhaj Shaik
 
 Reshama Shaikh
 
+Qi Shao
+
 Jennifer Shelton
 
 Akira Shibata
 
 Yu Shiu
+
+Andrei Simion
 
 Charles Simpson
 
@@ -488,17 +524,23 @@ Motoe X Suzuki
 
 Rakshak Talwar
 
+Kiyoto Tamura
+
 Liling Tan
+
+Michael Tartre
 
 Andy Terrel
 
 Matthew Terry
 
+Adam Thomas
+
 Garrett O. Thomas
 
-Marc-Olivier Titeux
-
 Magdalena Tkacz
+
+Marc-Olivier Titeux
 
 Mathew Topper
 
@@ -526,7 +568,11 @@ Tomoya Wada
 
 Manish Wadhwani
 
+Stephen Waterbury
+
 Johno Whitaker
+
+Vasantha Wijeyakulasuriya
 
 Daniel Williams
 
@@ -542,11 +588,15 @@ Dan Xu
 
 Eric Xu
 
+Bin Yang
+
 Kai Yang
 
 Lars Yencken
 
 Syu Jin Yuan
+
+Kevin Yuen
 
 Mahdi Ozbak Zaei
 
@@ -562,4 +612,4 @@ Andreas Zilly
 
 Michael Zingale
 
-en  zyme
+en zyme
