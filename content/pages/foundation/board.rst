@@ -49,14 +49,12 @@ Brian Granger
     :height: 150px
     :alt: Brian Granger
 
-Brian Granger is an Assistant Professor of Physics at Cal Poly State University
-in San Luis Obispo, CA. He has a background in theoretical atomic, molecular
-and optical physics, with a Ph.D from the University of Colorado. His current
-research interests include quantum computing, parallel and distributed
-computing and interactive computing environments for scientific and technical
-computing. He is a core developer of the IPython project and is an active
-contributor to a number of other open source projects focused on scientific
-computing in Python.
+Brian is an Associate Professor of Physics and Data Science at Cal
+Poly State University in San Luis Obispo, CA. He is a leader of the
+IPython project, co-founder of Project Jupyter and is an active
+contributor to a number of other open source projects focused on data
+science in Python. He is a faculty fellow of the Cal Poly Center for
+Innovation and Entrepreneurship.
 
 
 Perry Greenfield
