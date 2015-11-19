@@ -1,0 +1,23 @@
+==========================================================
+NumFOCUS Announces New Fiscally Sponsored Project: NumPy
+==========================================================
+:date: 2015-11-19
+:author: Gina Helfrich
+
+.. image:: /media/img/projects/NumPY.png
+    :height: 100px
+    :alt: NumPy
+
+NumFOCUS is pleased to announce `NumPy`_ as our newest fiscally sponsored project. NumPy is the fundamental package for scientific computing with Python. It is open source, BSD-licensed and contains among other things:
+
+	- a powerful N-dimensional array object
+	- sophisticated (broadcasting) functions
+	- tools for integrating C/C++ and Fortran code
+	- useful linear algebra, Fourier transform, and random number capabilities
+
+Besides its obvious scientific uses, NumPy can also be used as an efficient multi-dimensional container of generic data. Arbitrary data-types can be defined. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases.
+With the addition of NumPy, NumFOCUS now fiscally sponsors eleven different open source data science projects. To make a donation to support NumPy or any of NumFOCUS’ other projects, `click here`_.
+
+.. _NumPy: http://www.numpy.org/
+.. _click here: http://numfocus.org/projects/index.html
+

@@ -57,26 +57,6 @@ science in Python. He is a faculty fellow of the Cal Poly Center for
 Innovation and Entrepreneurship.
 
 
-Perry Greenfield
-----------------
-.. image:: /media/img/board/perry-greenfield.jpg
-    :height: 150px
-    :alt: Perry Greenfield
-
-Perry Greenfield received a Ph.D. in Physics from M.I.T. His thesis was based
-on Very Large Array radio observations of the first discovered gravitational
-lens. After a short stint in communications engineering at Bell Labs, he ended
-up at the Space Telescope Science Institute, where he has worked for the last
-26 years. He initially was responsible for calibrating the Faint Object Camera
-for the Hubble Space Telescope, but for the last 16 years he has been
-leading the Science Software Branch. He has pioneered the use of Python in
-astronomy, and his group has been heavily involved in Python for the last 12
-years. They have developed PyRAF, numarray (the precursor to current NumPy
-capabilities), PyFITS, and been heavily involved in the development and
-support of matplotlib. His group is now heavily involved in developing the
-science software to support the next large space telescope under
-construction, the James Webb Space Telescope.
-
 
 Stefan Karpinski
 -----------------
@@ -89,36 +69,16 @@ Citrix Online, and Etsy. Currently, Stefan is working on a next-generation progr
 language for numerical and scientific computing, called Julia. See his resume at http://karpinski.org/resume/.
 
 
-Cindee Madison
+
+Jennifer Klay
 --------------
-.. image:: /media/img/board/cindee-madison.jpg
+.. image:: /media/img/board/jennifer-klay.png
     :height: 150px
-    :alt: Cindee Madison
+    :alt: Jennifer Klay
 
-Cindee is a data scientist, software engineer, and project manager with over 10
-years experience in scientific computing. She is a strong proponent of
-reproducible science, with proven expertise in data mining, complex problem
-solving, analytics, algorithm and software development. Cindee recieved a M.A.
-in Psychology and Computer Science from University of Minnesota-Twin Cities in
-2002 and has held various positions at the University of California -- Berkeley
-working in neuroscience since 2002. Her specialties include python,
-numpy/scipy, pandas, scikit-learn, scikit-image, vim, testing, neuroscience,
-explaining how things work to a wide range of skill levels.
+Jennifer Klay is an Associate Professor of Physics at Cal Poly San Luis Obispo.  She has worked with big data at the CERN Large Hadron Collider’s ALICE experiment for 14 years, unlocking the secrets of the early Universe by colliding heavy nuclei at the highest energies available in the lab.  She has managed several large scientific software projects in nuclear and particle physics experiments and is the Executive Council Chairperson for the Neutron Induced Fission Fragment Tracking Experiment (NIFFTE) Collaboration.  Over the past several years she developed an introductory computational science course using the IPython notebook to teach data analysis and numerical methods for students in the physical sciences.  She loves to code and advocates computer software education for all as an essential 21st century technical skill.
 
 
-Jarrod Millman (Chairman)
---------------------------
-.. image:: /media/img/board/jarrod-millman.jpg
-    :height: 150px
-    :alt: Jarrod Millman
-
-Jarrod Millman is a graduate student in Biostatistics at UC Berkeley.  Prior to
-starting graduate school, Jarrod was the director of computing for UC
-Berkeley’s Neuroscience Institute, where he helped found the Neuroimaging in
-Python (NIPY) project.  From 2007 to 2009, he was the release manager for NumPy
-and SciPy.  He has also previously served as the conference chair for both the
-US and the India SciPy conferences.  His current interests concern statistics,
-neuroinformatics, reproducible research, and scientific computing.
 
 Didrik Pinte (Treasurer)
 ------------------------
@@ -156,3 +116,24 @@ Terrel has served as chair and organizer of many scientific computing
 conferences including SciPy Conference, FEniCS Conference, HPC^3, and
 Scientific Software Days.  He is an active contributor and reviewer to several
 scientific computing journals.
+
+
+
+
+Matthew Turk
+-------------
+.. image:: /media/img/board/mjturk_headshot.png
+    :height: 150px
+    :alt: Matthew Turk
+
+Matthew Turk is a Research Scientist at NCSA and a Research Assistant
+Professor at the University of Illinois astronomy department.  He
+graduated from Stanford with a PhD in physics in 2009, where he worked
+on the formation of the first stars in the universe.  He has been
+involved with the yt project, an analysis and visualization toolkit
+for volumetric data, as well as simulation codes for studying
+astrophysical phenomena.  He has participated in the organizing and
+program committee for SciPy, as well as the WSSSPE series on
+sustainability in scientific software, and strongly believes in the
+power of communities to foster deeper scientific understanding through
+computational science.

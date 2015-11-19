@@ -164,6 +164,8 @@ Carlos Cardenas
 
 Ciro Cattuto
 
+Ken Cavagnolo
+
 Mauro Cavalcanti
 
 Abhishek Chakraborty
@@ -337,6 +339,8 @@ Jeremiah Lant
 Hilmar Lapp
 
 Philip Lawrence
+
+Andy Loughran
 
 Robert Love
 
