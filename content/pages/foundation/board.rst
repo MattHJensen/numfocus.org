@@ -95,6 +95,17 @@ management systems, mostly based on Python, he joined Enthought. He is now
 running the European operations of Enthought out of Cambridge, UK.
 
 
+Tracy Teal
+----------
+.. image:: /media/img/board/tracy-teal.jpg
+    :height: 150px
+    :alt: Tracy Teal
+
+
+Tracy Teal is a co-founder and the Executive Director of Data Carpentry. Prior to Data Carpentry she was an Assistant Professor at Michigan State University in Microbiology and Molecular Genetics. She has a PhD from California Institute of Technology in Computation and Neural Systems and was an NSF Postdoctoral Fellow in Biological Informatics. She began work in computing as a Linux systems administrator and has since developed several open source bioinformatics tools. She has developed and taught short courses in bioinformatics and is on the programming committee for SciPy. She believes that advancing computing involves both tools and people and is focused on training researchers in data analysis and programming to empower researchers and enable data-driven discovery. 
+
+
+
 Andy Terrel (President)
 -----------------------
 .. image:: /media/img/board/andy-terrel.jpg 
